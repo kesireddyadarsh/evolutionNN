@@ -61,6 +61,8 @@ void Neuron::feedForward(const Layer &prevLayer)
     z_outputVal = Neuron::transferFunction(sum);
 }
 
+
+
 double Neuron::transferFunction(double x)
 {
     return tanh(x);
@@ -73,6 +75,8 @@ public:
     Net(vector<unsigned> &topology);
     void feedForward(const vector<double> &inputVals);
     vector<Layer> z_layer;
+    void backProp(const vector<double> &targetVals);
+    double z_error;
 };
 
 Net::Net(vector<unsigned> &topology){
@@ -102,6 +106,21 @@ void Net::feedForward(const vector<double> &inputVals){
 
 }
 
+void Net::backProp(const vector<double> &targetVals){
+    // Calculate overall net error (RMS of output neuron errors)
+    
+    Layer &outputLayer = z_layer.back();
+    z_error = 0.0;
+    
+    for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
+        double delta = targetVals[n] - outputLayer[n].getOutputVal();
+        z_error += delta * delta;
+    }
+    z_error /= outputLayer.size() - 1; // get average error squared
+    z_error = sqrt(z_error); // RMS
+
+}
+
 class population{
 public:
     population(int numNN,vector<unsigned> &topology);
@@ -114,9 +133,9 @@ population::population(int numNN,vector<unsigned> &topology){
     for (int populationNum = 1 ; populationNum<=numNN; populationNum++) {
         Net indiNet(topology);  
         popVector.push_back(indiNet);
-        cout<<"\n This is new network\n"<<endl;
+        //cout<<"\n This is new network\n"<<endl;
     }
-    cout<<"\nThis is population::::"<<endl;
+    //cout<<"\nThis is population::::"<<endl;
     
 }
 
@@ -124,11 +143,50 @@ population::population(int numNN,vector<unsigned> &topology){
 int main(int argc, const char * argv[]) {
     // insert code here...
     cout << "Hello, World!\n";
-    int numNN=100;
+    vector<unsigned> inputVal;
+    vector<unsigned> outputVal;
+    //vector<unsigned> targetVal;
+    int number;
+    
+    
+    //cout<<number<<endl;
+    switch (number) {
+        case 1:
+            inputVal.push_back(1.0);
+            inputVal.push_back(1.0);
+            outputVal.push_back(1.0);
+            break;
+        
+        case 2:
+            inputVal.push_back(1.0);
+            inputVal.push_back(0.0);
+            outputVal.push_back(1.0);
+            break;
+        
+        case 3:
+            inputVal.push_back(0.0);
+            inputVal.push_back(1.0);
+            outputVal.push_back(1.0);
+            break;
+        
+        case 4:
+            inputVal.push_back(0.0);
+            inputVal.push_back(0.0);
+            outputVal.push_back(0.0);
+            break;
+            
+        default:
+            cout<<"This is default"<<endl;
+            break;
+    }
+     
+    /*int numNN=100;
     vector<unsigned> topology;
     topology.push_back(2);
     topology.push_back(4);
     topology.push_back(1);
     population mypop(numNN,topology);
+    */
+    
     return 0;
 }
