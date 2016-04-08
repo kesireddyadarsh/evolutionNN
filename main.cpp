@@ -16,8 +16,10 @@ using namespace std;
 
 struct connect{
     double weight;
-    double changeWeight;
 };
+
+
+// This is for each Neuron
 
 class Neuron;
 typedef vector<Neuron> Layer;
@@ -50,9 +52,6 @@ void Neuron::feedForward(const Layer &prevLayer)
 {
     double sum = 0.0;
     
-    // Sum the previous layer's outputs (which are our inputs)
-    // Include the bias node from the previous layer.
-    
     for (unsigned n = 0; n < prevLayer.size(); ++n) {
         sum += prevLayer[n].getOutputVal() *
         prevLayer[n].z_outputWeights[z_myIndex].weight;
@@ -68,23 +67,36 @@ double Neuron::transferFunction(double x)
     return tanh(x);
 }
 
-
+//This is single neural network
 
 class Net{
 public:
     Net(vector<unsigned> &topology);
     void feedForward(const vector<double> &inputVals);
     vector<Layer> z_layer;
-    void backProp(const vector<double> &targetVals);
+    double backProp(const vector<double> &targetVals);
     double z_error;
 };
 
 Net::Net(vector<unsigned> &topology){
     
-    for(int  numLayers = 1; numLayers<=topology.size(); numLayers++){
-        unsigned numOutputs = numLayers == topology.size() - 1 ? 0 : topology[numLayers + 1];
+    for(int  numLayers = 0; numLayers<topology.size(); numLayers++){
+        //unsigned numOutputs = numLayers == topology.size() - 1 ? 0 : topology[numLayers + 1];
+       
+        unsigned numOutputs;
+        if (numLayers == topology.size()-1) {
+            numOutputs=0;
+        }else{
+            numOutputs= topology[numLayers+1];
+        }
+        
+        if(numOutputs>5){
+            cout<<"Stop it number outputs coming out"<<numOutputs<<endl;
+            exit(0);
+        }
         z_layer.push_back(Layer());
-        for(int numNeurons = 0; numNeurons<=topology[numLayers-1]; numNeurons++){
+        for(int numNeurons = 0; numNeurons <= topology[numLayers]; numNeurons++){
+            cout<<"This is neuron number:"<<numNeurons<<endl;
             z_layer.back().push_back(Neuron(numOutputs, numNeurons));
         }
     }
@@ -106,7 +118,7 @@ void Net::feedForward(const vector<double> &inputVals){
 
 }
 
-void Net::backProp(const vector<double> &targetVals){
+double Net::backProp(const vector<double> &targetVals){
     // Calculate overall net error (RMS of output neuron errors)
     
     Layer &outputLayer = z_layer.back();
@@ -117,76 +129,81 @@ void Net::backProp(const vector<double> &targetVals){
         z_error += delta * delta;
     }
     z_error /= outputLayer.size() - 1; // get average error squared
-    z_error = sqrt(z_error); // RMS
-
+    z_error = sqrt(z_error)*100; // RMS
+    return z_error;
 }
+
+
+//This is for population of neural network
+
 
 class population{
 public:
     population(int numNN,vector<unsigned> &topology);
     vector<Net> popVector;
+    void runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN);
+    vector<double> error;
+    void sortError();
 };
 
 // variables used: indiNet -- object to Net
 population::population(int numNN,vector<unsigned> &topology){
     
-    for (int populationNum = 1 ; populationNum<=numNN; populationNum++) {
+    for (int populationNum = 0 ; populationNum<numNN; populationNum++) {
+        cout<<"This is neural network:"<<populationNum<<endl;
         Net indiNet(topology);  
         popVector.push_back(indiNet);
-        //cout<<"\n This is new network\n"<<endl;
     }
-    //cout<<"\nThis is population::::"<<endl;
     
 }
 
+void population::runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN){
+    for (int temp=0 ; temp< numNN; temp++) {
+        //Run neural network.
+        popVector[temp].feedForward(inputVal);
+        double temp_1 = popVector[temp].backProp(targetVal);
+        error.push_back(temp_1);
+    }
+    cout<<"This is size of error"<<error.size()<<endl;
+    sortError();
+}
+
+void population::sortError(){
+    sort(error.begin(), error.end());
+    for(int temp =0; temp<=error.size();temp++){
+        cout<<error[temp]<<endl;
+    }
+}
+
+
+//This is main function
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     cout << "Hello, World!\n";
-    vector<unsigned> inputVal;
-    vector<unsigned> outputVal;
-    //vector<unsigned> targetVal;
-    int number;
+    vector<double> inputVal;
+    vector<double> outputVal;
+    vector<double> resultVal;
+    vector<double> targetVal;
     
-    
-    //cout<<number<<endl;
-    switch (number) {
-        case 1:
-            inputVal.push_back(1.0);
-            inputVal.push_back(1.0);
-            outputVal.push_back(1.0);
-            break;
-        
-        case 2:
-            inputVal.push_back(1.0);
-            inputVal.push_back(0.0);
-            outputVal.push_back(1.0);
-            break;
-        
-        case 3:
-            inputVal.push_back(0.0);
-            inputVal.push_back(1.0);
-            outputVal.push_back(1.0);
-            break;
-        
-        case 4:
-            inputVal.push_back(0.0);
-            inputVal.push_back(0.0);
-            outputVal.push_back(0.0);
-            break;
-            
-        default:
-            cout<<"This is default"<<endl;
-            break;
-    }
-     
-    /*int numNN=100;
+    int numNN=100;
     vector<unsigned> topology;
+    topology.clear();
     topology.push_back(2);
     topology.push_back(4);
     topology.push_back(1);
     population mypop(numNN,topology);
-    */
+    
+    inputVal.push_back(1.0);
+    inputVal.push_back(1.0);
+    targetVal.push_back(1.0);
+    mypop.runNetwork(inputVal, targetVal, numNN);
+    
+    
+    //
+    //for (int i=0; i<=numNN; i++) {
+        
+    //}
     
     return 0;
 }
