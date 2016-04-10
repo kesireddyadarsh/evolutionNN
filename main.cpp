@@ -155,7 +155,7 @@ public:
     vector<double> newerror;
     void sortError();
     void mutation(int numNN);
-    void newpopulation(vector<double> error);
+    void newpopulation();
 };
 
 // variables used: indiNet -- object to Net
@@ -170,40 +170,49 @@ population::population(int numNN,vector<unsigned> &topology){
 }
 
 void population::runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN){
+    bool runNetwork_flag = true;
     for (int temp=0 ; temp< numNN; temp++) {
         //Run neural network.
          popVector[temp].feedForward(inputVal);
         double temp_1 = popVector[temp].backProp(targetVal);
         error.push_back(temp_1);
     }
-    cout<<"This is size of error"<<error.size()<<endl;
-    sortError();
-    bool error_check_flag = true;
-    if(error_check_flag==true){
+    if (runNetwork_flag == true) {
+        cout<<"This are first errors"<<endl;
+        for (int temp =0 ; temp<error.size(); temp++) {
+            cout<<error[temp]<<endl;
+        }
+    }
+    sort(error.begin(), error.end());
+    if(runNetwork_flag==true){
+        cout<<"This are sort error"<<endl;
         for (int temp =0 ; temp<error.size(); temp++) {
             cout<<error[temp]<<endl;
         }
     }
     overallError.push_back(error);
-    newpopulation(error);
+    newpopulation();
     error.clear();
     mutation(numNN);
-    cout<<"This is total erro:"<<overallError.size()<<endl;
+    cout<<"This is total error:"<<overallError.size()<<endl;
 }
 
 void population::sortError(){
     sort(error.begin(), error.end());
 }
 
-void population::newpopulation(vector<double> error){
+void population::newpopulation(){
+    bool newpopulation_print_flag = true;
     int size = error.size()/4;
     for (int temp =0 ; temp< size; temp++) {
         newerror.push_back(error[temp]);
         error.erase(error.begin());
     }
-    cout<< "This is error size now::"<<error.size()<<endl;
-    for (int temp =0 ; temp<error.size(); temp++) {
-        cout<<error[temp]<<endl;
+    if(newpopulation_print_flag== true){
+        cout<< "This is error size after removing::"<<error.size()<<endl;
+        for (int temp =0 ; temp<error.size(); temp++) {
+            cout<<error[temp]<<endl;
+        }
     }
     int looprotate = error.size()/2;
     for (int temp = 0; temp<looprotate; temp++ ) {
@@ -220,10 +229,13 @@ void population::newpopulation(vector<double> error){
             
         }
     }
-    cout<<"This is new error vector::"<<endl;
-    for (int temp =0 ; temp<newerror.size(); temp++) {
-        cout<<newerror[temp]<<endl;
+    if (newpopulation_print_flag == true) {
+        cout<<"This is new error vector::"<<endl;
+        for (int temp =0 ; temp<newerror.size(); temp++) {
+            cout<<newerror[temp]<<endl;
+        }
     }
+    
 }
 
 void population::mutation(int numNN){
@@ -241,7 +253,7 @@ int main(int argc, const char * argv[]) {
     vector<double> resultVal;
     vector<double> targetVal;
     
-    int numNN=20;
+    int numNN=10;
     vector<unsigned> topology;
     topology.clear();
     topology.push_back(2);
