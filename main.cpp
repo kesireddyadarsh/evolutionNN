@@ -158,6 +158,7 @@ public:
     void newerrorvector();
     void findindex();
     vector<int> errorindex;
+    vector<int> badindex;
     vector<double> temp_error;
 };
 
@@ -226,16 +227,28 @@ void population::findindex(){
         }
     }
     cout<<"This is size of temp_error::::"<<errorindex.size()<<endl;
-    
+    for (int temp = 0 ; temp < temp_error.size(); temp++) {
+        if (temp != newerror[temp]) {
+            badindex.push_back(temp);
+        }
+    }
     /*cout<<"This is the index"<<endl;
     for (int temp =0 ; temp<errorindex.size(); temp++) {
         cout<<errorindex[temp]<<endl;
     }*/
 }
 
-
+//errorindex has good neural network numbers which should be mutated
+//badindex holds neural networks which should be removed.
 void population::mutation(int numNN){
     
+    for (int temp =0; temp<numNN; temp++) {
+        //create weights for bad index in popvector
+    }
+    for (int temp =0; temp<badindex.size(); temp++) {
+        //random generate weights for popvector
+        //Find the mean of weights for good vector and use those weights to generate randomnumber
+    }
     for (int temp = 0 ; temp < numNN; temp++) {
         
         cout<<"This is value looking for"<<popVector[temp].z_layer[temp][temp].z_outputWeights[temp].weight<<endl;
