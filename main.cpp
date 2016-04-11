@@ -156,6 +156,9 @@ public:
     void sortError();
     void mutation(int numNN);
     void newpopulation();
+    void findindex();
+    vector<int> errorindex;
+    vector<double> temp_error;
 };
 
 // variables used: indiNet -- object to Net
@@ -169,39 +172,8 @@ population::population(int numNN,vector<unsigned> &topology){
     
 }
 
-void population::runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN){
-    bool runNetwork_flag = true;
-    for (int temp=0 ; temp< numNN; temp++) {
-        //Run neural network.
-         popVector[temp].feedForward(inputVal);
-        double temp_1 = popVector[temp].backProp(targetVal);
-        error.push_back(temp_1);
-    }
-    if (runNetwork_flag == true) {
-        cout<<"This are first errors"<<endl;
-        for (int temp =0 ; temp<error.size(); temp++) {
-            cout<<error[temp]<<endl;
-        }
-    }
-    sort(error.begin(), error.end());
-    if(runNetwork_flag==true){
-        cout<<"This are sort error"<<endl;
-        for (int temp =0 ; temp<error.size(); temp++) {
-            cout<<error[temp]<<endl;
-        }
-    }
-    overallError.push_back(error);
-    newpopulation();
-    error.clear();
-    mutation(numNN);
-    cout<<"This is total error:"<<overallError.size()<<endl;
-}
-
-void population::sortError(){
-    sort(error.begin(), error.end());
-}
-
 void population::newpopulation(){
+    
     bool newpopulation_print_flag = true;
     int size = error.size()/4;
     for (int temp =0 ; temp< size; temp++) {
@@ -210,11 +182,11 @@ void population::newpopulation(){
     }
     if(newpopulation_print_flag== true){
         cout<< "This is error size after removing::"<<error.size()<<endl;
-        for (int temp =0 ; temp<error.size(); temp++) {
+        /*for (int temp =0 ; temp<error.size(); temp++) {
             cout<<error[temp]<<endl;
-        }
+        }*/
     }
-    int looprotate = error.size()/2;
+    int looprotate = error.size()/3;
     for (int temp = 0; temp<looprotate; temp++ ) {
         int temp_1 = error.size();
         int number_1 = (rand() % temp_1)+1;
@@ -230,17 +202,87 @@ void population::newpopulation(){
         }
     }
     if (newpopulation_print_flag == true) {
-        cout<<"This is new error vector::"<<endl;
-        for (int temp =0 ; temp<newerror.size(); temp++) {
+        cout<<"This is new error vector::"<<newerror.size()<<endl;
+        /*for (int temp =0 ; temp<newerror.size(); temp++) {
             cout<<newerror[temp]<<endl;
-        }
+        }*/
     }
     
 }
 
+void population::findindex(){
+    for (int temp = 0 ; temp<temp_error.size(); temp++) {
+        for (int temp_1 =0 ; temp_1<newerror.size(); temp_1++) {
+            if (temp_error[temp] == newerror[temp_1]) {
+                errorindex.push_back(temp);
+            }
+        }
+    }
+    cout<<"This is size of temp_error::::"<<errorindex.size()<<endl;
+    
+    /*cout<<"This is the index"<<endl;
+    for (int temp =0 ; temp<errorindex.size(); temp++) {
+        cout<<errorindex[temp]<<endl;
+    }*/
+}
+
+
 void population::mutation(int numNN){
     
+    for (int temp = 0 ; temp < numNN; temp++) {
+        
+    }
 }
+
+void population::runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN){
+    
+    bool runNetwork_flag = false;   // flag for print
+    
+    for (int temp=0 ; temp< numNN; temp++) {
+        //Run neural network.
+         popVector[temp].feedForward(inputVal);
+        double temp_1 = popVector[temp].backProp(targetVal);
+        error.push_back(temp_1);
+        temp_error.push_back(temp_1);
+    }
+    
+    //Print after errors
+    if (runNetwork_flag == true) {
+        cout<<"This are first errors"<<endl;
+        for (int temp =0 ; temp<error.size(); temp++) {
+            cout<<error[temp]<<endl;
+        }
+        cout<<"This are temp errors"<<endl;
+        for (int temp =0 ; temp<temp_error.size(); temp++) {
+            cout<<error[temp]<<endl;
+        }
+    }
+    
+    sort(error.begin(), error.end());
+    
+    //Print after sorting
+    if(runNetwork_flag==true){
+        cout<<"This are sort error"<<endl;
+        for (int temp =0 ; temp<error.size(); temp++) {
+            cout<<error[temp]<<endl;
+        }
+    }
+    
+    overallError.push_back(error); // This is for development purpose no actual use so far
+    
+    newpopulation(); //Only required neural network errors are used
+    
+    findindex();
+    
+    error.clear();
+    
+    mutation(numNN);
+    
+    cout<<"This is total error:"<<overallError.size()<<endl;
+}
+
+
+
 
 //This is main function
 
@@ -253,7 +295,7 @@ int main(int argc, const char * argv[]) {
     vector<double> resultVal;
     vector<double> targetVal;
     
-    int numNN=10;
+    int numNN=100;
     vector<unsigned> topology;
     topology.clear();
     topology.push_back(2);
