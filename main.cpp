@@ -155,7 +155,7 @@ public:
     vector<double> newerror;
     void sortError();
     void mutation(int numNN);
-    void newpopulation();
+    void newerrorvector();
     void findindex();
     vector<int> errorindex;
     vector<double> temp_error;
@@ -172,7 +172,11 @@ population::population(int numNN,vector<unsigned> &topology){
     
 }
 
-void population::newpopulation(){
+/*
+    Find lost error and push_back into newerror vector
+*/
+
+void population::newerrorvector(){
     
     bool newpopulation_print_flag = true;
     int size = error.size()/4;
@@ -210,6 +214,9 @@ void population::newpopulation(){
     
 }
 
+/*
+ This function is used to find index of nerual network which has small error
+*/
 void population::findindex(){
     for (int temp = 0 ; temp<temp_error.size(); temp++) {
         for (int temp_1 =0 ; temp_1<newerror.size(); temp_1++) {
@@ -270,14 +277,13 @@ void population::runNetwork(vector<double> &inputVal, vector<double> &targetVal,
     
     overallError.push_back(error); // This is for development purpose no actual use so far
     
-    newpopulation(); //Only required neural network errors are used
+    newerrorvector(); //Only required neural network errors are used
     
-    findindex();
-    
-    error.clear();
+    findindex(); //find index of requried neural network
     
     mutation(numNN);
-    
+
+    error.clear(); // clears error vector
     cout<<"This is total error:"<<overallError.size()<<endl;
 }
 
