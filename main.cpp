@@ -50,6 +50,12 @@ Neuron::Neuron(unsigned numOutputs, unsigned myIndex)
     z_myIndex = myIndex;
 }
 
+double Neuron::transferFunction(double x)
+{
+    return tanh(x);
+}
+
+
 void Neuron::feedForward(const Layer prevLayer)
 {
     double sum = 0.0;
@@ -68,12 +74,6 @@ void Neuron::feedForward(const Layer prevLayer)
     z_outputVal = Neuron::transferFunction(sum);
 }
 
-
-
-double Neuron::transferFunction(double x)
-{
-    return tanh(x);
-}
 
 //This is single neural network
 
@@ -238,6 +238,7 @@ void population::mutation(int numNN){
     
     for (int temp = 0 ; temp < numNN; temp++) {
         
+        cout<<"This is value looking for"<<popVector[temp].z_layer[temp][temp].z_outputWeights[temp].weight<<endl;
     }
 }
 
