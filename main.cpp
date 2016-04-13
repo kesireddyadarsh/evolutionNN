@@ -1,14 +1,14 @@
 //
 //  main.cpp
-//  evNN_V2
+//  evv_NN_V4
 //
-//  Created by adarsh kesireddy on 3/31/16.
+//  Created by adarsh kesireddy on 4/11/16.
 //  Copyright © 2016 adarsh kesireddy. All rights reserved.
 //
 
 #include <iostream>
 #include <vector>
-#include <cmath> 
+#include <cmath>
 #include <cstdlib>
 #include <cassert>
 #include <time.h>
@@ -20,6 +20,7 @@ struct connect{
     double weight;
 };
 
+static double random_global(double a) { return a* (rand() / double(RAND_MAX)); }
 
 // This is for each Neuron
 
@@ -40,24 +41,20 @@ public:
 };
 
 //This creates connection with neurons.
-Neuron::Neuron(unsigned numOutputs, unsigned myIndex)
-{
+Neuron::Neuron(unsigned numOutputs, unsigned myIndex){
     for (unsigned c = 0; c < numOutputs; ++c) {
         z_outputWeights.push_back(connect());
         z_outputWeights.back().weight = randomWeight();
     }
-    
     z_myIndex = myIndex;
 }
 
-double Neuron::transferFunction(double x)
-{
+double Neuron::transferFunction(double x){
     return tanh(x);
 }
 
 
-void Neuron::feedForward(const Layer prevLayer)
-{
+void Neuron::feedForward(const Layer prevLayer){
     double sum = 0.0;
     bool debug_sum_flag = false;
     
@@ -84,13 +81,14 @@ public:
     vector<Layer> z_layer;
     double backProp(const vector<double> &targetVals);
     double z_error;
+    void mutate();
 };
 
 Net::Net(vector<unsigned> &topology){
     
     for(int  numLayers = 0; numLayers<topology.size(); numLayers++){
         //unsigned numOutputs = numLayers == topology.size() - 1 ? 0 : topology[numLayers + 1];
-       
+        
         unsigned numOutputs;
         if (numLayers == topology.size()-1) {
             numOutputs=0;
@@ -110,6 +108,18 @@ Net::Net(vector<unsigned> &topology){
     }
 }
 
+void Net::mutate(){
+    /*//popVector[temp].z_layer[temp][temp].z_outputWeights[temp].weight
+     */
+    for (int l =0 ; l < z_layer.size(); l++) {
+        for (int n =0 ; n< z_layer[l].size(); n++) {
+            for (int z=0 ; z< z_layer[l][n].z_outputWeights.size(); z++) {
+                z_layer[l][n].z_outputWeights[z].weight += random_global(.1)-random_global(.1);
+            }
+        }
+    }
+}
+
 void Net::feedForward(const vector<double> &inputVals){
     //assert(inputVals.size() == z_layer[0].size()-1);
     
@@ -122,7 +132,7 @@ void Net::feedForward(const vector<double> &inputVals){
             z_layer[layerNum][n].feedForward(prevLayer);
         }
     }
-
+    
 }
 
 double Net::backProp(const vector<double> &targetVals){
@@ -140,26 +150,20 @@ double Net::backProp(const vector<double> &targetVals){
     return z_error;
 }
 
-//Error showed be class (use construct)
 
 //This is for population of neural network
-
-
 class population{
 public:
     population(int numNN,vector<unsigned> &topology);
     vector<Net> popVector;
     void runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN);
-    vector<double> error;
-    vector<vector<double>> overallError;
-    vector<double> newerror;
     void sortError();
     void mutation(int numNN);
     void newerrorvector();
     void findindex();
-    vector<int> errorindex;
-    vector<int> badindex;
-    vector<double> temp_error;
+    int returnIndex(int numNN);
+    void repop(int numNN);
+
 };
 
 // variables used: indiNet -- object to Net
@@ -167,94 +171,39 @@ population::population(int numNN,vector<unsigned> &topology){
     
     for (int populationNum = 0 ; populationNum<numNN; populationNum++) {
         //cout<<"This is neural network:"<<populationNum<<endl;
-        Net indiNet(topology);  
+        Net indiNet(topology);
         popVector.push_back(indiNet);
     }
     
 }
 
-/*
-    Find lost error and push_back into newerror vector
-*/
+//Return index of higher
 
-void population::newerrorvector(){
-    
-    bool newpopulation_print_flag = true;
-    int size = error.size()/4;
-    for (int temp =0 ; temp< size; temp++) {
-        newerror.push_back(error[temp]);
-        error.erase(error.begin());
-    }
-    if(newpopulation_print_flag== true){
-        cout<< "This is error size after removing::"<<error.size()<<endl;
-        /*for (int temp =0 ; temp<error.size(); temp++) {
-            cout<<error[temp]<<endl;
-        }*/
-    }
-    int looprotate = error.size()/3;
-    for (int temp = 0; temp<looprotate; temp++ ) {
-        int temp_1 = error.size();
-        int number_1 = (rand() % temp_1)+1;
-        int number_2 = (rand() % temp_1)+1;
-        if(error[number_1]<error[number_2]){
-            newerror.push_back(error[number_1]);
-            error.erase(error.begin()+(number_1-1));
-        }else if (error[number_1]>error[number_2]){
-            newerror.push_back(error[number_2]);
-            error.erase(error.begin()+(number_2-1));
-        }else{
-            
-        }
-    }
-    if (newpopulation_print_flag == true) {
-        cout<<"This is new error vector::"<<newerror.size()<<endl;
-        /*for (int temp =0 ; temp<newerror.size(); temp++) {
-            cout<<newerror[temp]<<endl;
-        }*/
+int population::returnIndex(int numNN){
+    int temp = numNN;
+    int number_1 = (rand() % temp);
+    int number_2 = (rand() % temp);
+    while (number_1 == number_2) {
+        number_2 = (rand() % temp);
     }
     
+    if (popVector[number_1].z_error<popVector[number_2].z_error) {
+        return number_2;
+    }else if (popVector[number_1].z_error>popVector[number_2].z_error){
+        return number_1;
+    }else{
+        return NULL;
+    }
+}
+void population::repop(int numNN){
+    for (int temp =0 ; temp<numNN/2; temp++) {
+        int R = rand()% popVector.size();
+        popVector.push_back(popVector.at(R));
+        popVector.back().mutate();
+    }
 }
 
-/*
- This function is used to find index of nerual network which has small error
-*/
-void population::findindex(){
-    for (int temp = 0 ; temp<temp_error.size(); temp++) {
-        for (int temp_1 =0 ; temp_1<newerror.size(); temp_1++) {
-            if (temp_error[temp] == newerror[temp_1]) {
-                errorindex.push_back(temp);
-            }
-        }
-    }
-    cout<<"This is size of temp_error::::"<<errorindex.size()<<endl;
-    for (int temp = 0 ; temp < temp_error.size(); temp++) {
-        if (temp != newerror[temp]) {
-            badindex.push_back(temp);
-        }
-    }
-    /*cout<<"This is the index"<<endl;
-    for (int temp =0 ; temp<errorindex.size(); temp++) {
-        cout<<errorindex[temp]<<endl;
-    }*/
-}
 
-//errorindex has good neural network numbers which should be mutated
-//badindex holds neural networks which should be removed.
-void population::mutation(int numNN){
-    
-    for (int temp =0; temp<numNN; temp++) {
-        //create weights for bad index in popvector
-        
-    }
-    for (int temp =0; temp<badindex.size(); temp++) {
-        //random generate weights for popvector
-        //Find the mean of weights for good vector and use those weights to generate randomnumber
-    }
-    for (int temp = 0 ; temp < numNN; temp++) {
-        
-        cout<<"This is value looking for"<<popVector[temp].z_layer[temp][temp].z_outputWeights[temp].weight<<endl;
-    }
-}
 
 void population::runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN){
     
@@ -262,44 +211,22 @@ void population::runNetwork(vector<double> &inputVal, vector<double> &targetVal,
     
     for (int temp=0 ; temp< numNN; temp++) {
         //Run neural network.
-         popVector[temp].feedForward(inputVal);
-        double temp_1 = popVector[temp].backProp(targetVal);
-        error.push_back(temp_1);
-        temp_error.push_back(temp_1);
+        popVector[temp].feedForward(inputVal);
+        popVector[temp].backProp(targetVal);
+        cout<<popVector[temp].z_error<<endl;
     }
     
-    //Print after errors
-    if (runNetwork_flag == true) {
-        cout<<"This are first errors"<<endl;
-        for (int temp =0 ; temp<error.size(); temp++) {
-            cout<<error[temp]<<endl;
-        }
-        cout<<"This are temp errors"<<endl;
-        for (int temp =0 ; temp<temp_error.size(); temp++) {
-            cout<<error[temp]<<endl;
-        }
+    for (int temp = 0 ; temp < numNN/2; temp++) {
+        int temp_index = returnIndex(popVector.size());
+        popVector.erase(popVector.begin()+temp_index);
+        /*if ((temp_index == NULL) || (temp_index>popVector.size())) {
+            temp -= 1;
+        }else{
+            popVector.erase(popVector.begin()+temp_index);
+        }*/
     }
-    
-    sort(error.begin(), error.end());
-    
-    //Print after sorting
-    if(runNetwork_flag==true){
-        cout<<"This are sort error"<<endl;
-        for (int temp =0 ; temp<error.size(); temp++) {
-            cout<<error[temp]<<endl;
-        }
-    }
-    
-    overallError.push_back(error); // This is for development purpose no actual use so far
-    
-    newerrorvector(); //Only required neural network errors are used
-    
-    findindex(); //find index of requried neural network
-    
-    mutation(numNN);
-
-    error.clear(); // clears error vector
-    cout<<"This is total error:"<<overallError.size()<<endl;
+    cout<<"This is size::"<<popVector.size()<<endl;
+    repop(numNN);
 }
 
 
@@ -316,7 +243,7 @@ int main(int argc, const char * argv[]) {
     vector<double> resultVal;
     vector<double> targetVal;
     
-    int numNN=100;
+    int numNN=10;
     vector<unsigned> topology;
     topology.clear();
     topology.push_back(2);
@@ -327,52 +254,55 @@ int main(int argc, const char * argv[]) {
     bool z_debugger_flag = false;
     
     if(z_debugger_flag == true){
-    for (int i=0; i<100; i++) {
-        int number = (rand() % 4)+1;
-        switch (number) {
-            case 1:
-                inputVal.push_back(1.0);
-                inputVal.push_back(1.0);
-                targetVal.push_back(1.0);
-                break;
+        for (int i=0; i<100; i++) {
+            int number = (rand() % 4)+1;
+            switch (number) {
+                case 1:
+                    inputVal.push_back(1.0);
+                    inputVal.push_back(1.0);
+                    targetVal.push_back(1.0);
+                    break;
+                    
+                case 2:
+                    inputVal.push_back(1.0);
+                    inputVal.push_back(0.0);
+                    targetVal.push_back(1.0);
+                    break;
+                    
+                case 3:
+                    inputVal.push_back(0.0);
+                    inputVal.push_back(1.0);
+                    targetVal.push_back(1.0);
+                    break;
+                    
+                case 4:
+                    inputVal.push_back(0.0);
+                    inputVal.push_back(0.0);
+                    targetVal.push_back(0.0);
+                    break;
+                    
+                default:
+                    inputVal.push_back(0.0);
+                    inputVal.push_back(0.0);
+                    targetVal.push_back(0.0);
+                    break;
+            }
             
-            case 2:
-                inputVal.push_back(1.0);
-                inputVal.push_back(0.0);
-                targetVal.push_back(1.0);
-                break;
-            
-            case 3:
-                inputVal.push_back(0.0);
-                inputVal.push_back(1.0);
-                targetVal.push_back(1.0);
-                break;
-            
-            case 4:
-                inputVal.push_back(0.0);
-                inputVal.push_back(0.0);
-                targetVal.push_back(0.0);
-                break;
-            
-            default:
-                inputVal.push_back(0.0);
-                inputVal.push_back(0.0);
-                targetVal.push_back(0.0);
-                break;
+            mypop.runNetwork(inputVal, targetVal, numNN);
         }
-        
-        mypop.runNetwork(inputVal, targetVal, numNN);
-    }
     }else{
         inputVal.push_back(1.0);
         inputVal.push_back(0.0);
         targetVal.push_back(1.0);
-        mypop.runNetwork(inputVal, targetVal, numNN);
+        for (int temp =0 ; temp<200; temp++) {
+            mypop.runNetwork(inputVal, targetVal, numNN);
+        }
+        
     }
     
     //
     //for (int i=0; i<=numNN; i++) {
-        
+    
     //}
     
     return 0;
