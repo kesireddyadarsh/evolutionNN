@@ -244,6 +244,7 @@ void population::mutation(int numNN){
     
     for (int temp =0; temp<numNN; temp++) {
         //create weights for bad index in popvector
+        
     }
     for (int temp =0; temp<badindex.size(); temp++) {
         //random generate weights for popvector
