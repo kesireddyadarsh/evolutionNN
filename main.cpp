@@ -181,6 +181,23 @@ double Net::backProp(vector<double> targetVals, int numCases){
     return z_error;
 }
 
+/*
+double Net::backProp( vector<double> targetVals,int numCases){
+    // Calculate overall net error (RMS of output neuron errors)
+    
+    Layer &outputLayer = z_layer.back();
+    z_error = 0.0;
+    
+    for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
+        double delta = targetVals[n] - outputLayer[n].getOutputVal();
+        z_error += delta * delta;
+    }
+    z_error /= outputLayer.size() - 1; // get average error squared
+    z_error = sqrt(z_error)*100; // RMS
+    return z_error;
+}
+*/
+
 
 //This is for population of neural network
 class population{
