@@ -41,6 +41,7 @@ public:
 };
 
 //This creates connection with neurons.
+
 Neuron::Neuron(unsigned numOutputs, unsigned myIndex){
     for (unsigned c = 0; c < numOutputs; ++c) {
         z_outputWeights.push_back(connect());
@@ -48,6 +49,7 @@ Neuron::Neuron(unsigned numOutputs, unsigned myIndex){
     }
     z_myIndex = myIndex;
 }
+
 
 double Neuron::transferFunction(double x){
     return tanh(x);
@@ -67,21 +69,23 @@ void Neuron::feedForward(const Layer prevLayer){
         sum += prevLayer[n].getOutputVal() * prevLayer[n].z_outputWeights[z_myIndex].weight;
         //cout<<"This is sum value"<<sum<<endl;
     }
-    
     z_outputVal = Neuron::transferFunction(sum);
 }
-
 
 //This is single neural network
 
 class Net{
 public:
     Net(vector<unsigned> &topology);
-    void feedForward(const vector<double> &inputVals);
+    void feedForward(vector<double> inputVals, int numCases);
     vector<Layer> z_layer;
-    double backProp(const vector<double> &targetVals);
+    double backProp( vector<double> targetVals, int numCases);
     double z_error;
+    double z_error_temp;
+    vector<double> z_error_vector;
     void mutate();
+    vector<double> temp_inputs;
+    vector<double> temp_targets;
 };
 
 Net::Net(vector<unsigned> &topology){
@@ -100,7 +104,9 @@ Net::Net(vector<unsigned> &topology){
             cout<<"Stop it number outputs coming out"<<numOutputs<<endl;
             exit(10);
         }
+        
         z_layer.push_back(Layer());
+        
         for(int numNeurons = 0; numNeurons <= topology[numLayers]; numNeurons++){
             //cout<<"This is neuron number:"<<numNeurons<<endl;
             z_layer.back().push_back(Neuron(numOutputs, numNeurons));
@@ -109,7 +115,8 @@ Net::Net(vector<unsigned> &topology){
 }
 
 void Net::mutate(){
-    /*//popVector[temp].z_layer[temp][temp].z_outputWeights[temp].weight
+    /*
+        //popVector[temp].z_layer[temp][temp].z_outputWeights[temp].weight
      */
     for (int l =0 ; l < z_layer.size(); l++) {
         for (int n =0 ; n< z_layer[l].size(); n++) {
@@ -120,33 +127,57 @@ void Net::mutate(){
     }
 }
 
-void Net::feedForward(const vector<double> &inputVals){
-    //assert(inputVals.size() == z_layer[0].size()-1);
-    
-    for (unsigned i=0; i<inputVals.size(); ++i) {
-        z_layer[0][i].setOutputVal(inputVals[i]);
-    }
-    for (unsigned layerNum = 1; layerNum < z_layer.size(); ++layerNum) {
-        Layer &prevLayer = z_layer[layerNum - 1];
-        for (unsigned n = 0; n < z_layer[layerNum].size() - 1; ++n) {
-            z_layer[layerNum][n].feedForward(prevLayer);
+void Net::feedForward(vector<double> inputVals, int numCases){
+    int cycle_inputs = 0 ;
+    temp_inputs.clear();
+    while (cycle_inputs<=(inputVals.size())) {
+        int push_vector = cycle_inputs;
+        for ( int temp =0 ; temp<(inputVals.size()/numCases); temp++) {
+            temp_inputs.push_back(inputVals[push_vector]);
+            push_vector++;
         }
+        assert(temp_inputs.size() == z_layer[0].size()-1);
+        for (unsigned i=0; i<temp_inputs.size(); ++i) {
+            z_layer[0][i].setOutputVal(temp_inputs[i]);
+        }
+        for (unsigned layerNum = 1; layerNum < z_layer.size(); ++layerNum) {
+            Layer &prevLayer = z_layer[layerNum - 1];
+            for (unsigned n = 0; n < z_layer[layerNum].size() - 1; ++n) {
+                z_layer[layerNum][n].feedForward(prevLayer);
+            }
+        }
+        temp_inputs.clear();
+        cycle_inputs += (inputVals.size()/numCases);
     }
-    
 }
 
-double Net::backProp(const vector<double> &targetVals){
+double Net::backProp(vector<double> targetVals, int numCases){
     // Calculate overall net error (RMS of output neuron errors)
+    z_error_vector.clear();
+    int cycle_target = 0 ;
+    while (cycle_target<=(targetVals.size())) {
+        int push_vector = cycle_target;
+        for ( int temp =0 ; temp<(targetVals.size()/numCases); temp++) {
+            temp_targets.push_back(targetVals[push_vector]);
+            push_vector++;
+        }
+        
+        Layer &outputLayer = z_layer.back();
+        z_error_temp = 0.0;
     
-    Layer &outputLayer = z_layer.back();
-    z_error = 0.0;
-    
-    for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
-        double delta = targetVals[n] - outputLayer[n].getOutputVal();
-        z_error += delta * delta;
+        for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
+            double delta = temp_targets[n] - outputLayer[n].getOutputVal();
+            z_error_temp += delta * delta;
+        }
+        z_error_temp /= outputLayer.size() - 1; // get average error squared
+        z_error_temp = sqrt(z_error)*100; // RMS
+        z_error_vector.push_back(z_error_temp);
+        cycle_target += (targetVals.size()/numCases);
     }
-    z_error /= outputLayer.size() - 1; // get average error squared
-    z_error = sqrt(z_error)*100; // RMS
+    z_error = 0.0;
+    for (int temp = 0; temp< z_error_vector.size(); temp++) {
+        z_error += z_error_vector[temp];
+    }
     return z_error;
 }
 
@@ -156,7 +187,7 @@ class population{
 public:
     population(int numNN,vector<unsigned> &topology);
     vector<Net> popVector;
-    void runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN);
+    void runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN, int numCases);
     void sortError();
     void mutation(int numNN);
     void newerrorvector();
@@ -195,6 +226,8 @@ int population::returnIndex(int numNN){
         return NULL;
     }
 }
+
+
 void population::repop(int numNN){
     for (int temp =0 ; temp<numNN/2; temp++) {
         int R = rand()% popVector.size();
@@ -204,26 +237,20 @@ void population::repop(int numNN){
 }
 
 
-
-void population::runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN){
+void population::runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN, int numCases){
     
     bool runNetwork_flag = false;   // flag for print
     
     for (int temp=0 ; temp< numNN; temp++) {
         //Run neural network.
-        popVector[temp].feedForward(inputVal);
-        popVector[temp].backProp(targetVal);
+        popVector[temp].feedForward(inputVal,numCases);
+        popVector[temp].backProp(targetVal,numCases);
         cout<<popVector[temp].z_error<<endl;
     }
     
     for (int temp = 0 ; temp < numNN/2; temp++) {
         int temp_index = returnIndex(popVector.size());
         popVector.erase(popVector.begin()+temp_index);
-        /*if ((temp_index == NULL) || (temp_index>popVector.size())) {
-            temp -= 1;
-        }else{
-            popVector.erase(popVector.begin()+temp_index);
-        }*/
     }
     cout<<"This is size::"<<popVector.size()<<endl;
     repop(numNN);
@@ -244,8 +271,13 @@ int main(int argc, const char * argv[]) {
     vector<double> targetVal;
     
     int numNN=10;
+    int numCases = 4;
     vector<unsigned> topology;
     topology.clear();
+    inputVal.clear();
+    outputVal.clear();
+    targetVal.clear();
+    resultVal.clear();
     topology.push_back(2);
     topology.push_back(4);
     topology.push_back(1);
@@ -288,14 +320,25 @@ int main(int argc, const char * argv[]) {
                     break;
             }
             
-            mypop.runNetwork(inputVal, targetVal, numNN);
+            mypop.runNetwork(inputVal, targetVal, numNN, numCases);
         }
     }else{
         inputVal.push_back(1.0);
+        inputVal.push_back(1.0);
+        targetVal.push_back(0.0);
+        ///*
+         inputVal.push_back(1.0);
         inputVal.push_back(0.0);
         targetVal.push_back(1.0);
-        for (int temp =0 ; temp<200; temp++) {
-            mypop.runNetwork(inputVal, targetVal, numNN);
+        inputVal.push_back(0.0);
+        inputVal.push_back(1.0);
+        targetVal.push_back(1.0);
+        inputVal.push_back(0.0);
+        inputVal.push_back(0.0);
+        targetVal.push_back(0.0);
+        //*/
+        for (int temp =0 ; temp<2000; temp++) {
+            mypop.runNetwork(inputVal, targetVal, numNN, numCases);
         }
         
     }
