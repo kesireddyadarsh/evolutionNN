@@ -76,10 +76,10 @@ void Neuron::feedForward(const Layer prevLayer){
 
 class Net{
 public:
-    Net(vector<unsigned> &topology);
-    void feedForward(vector<double> inputVals, int numCases);
+    Net(vector<unsigned> topology);
+    void feedForward(vector<double> inputVals, int numCases, vector<double> targetVals);
     vector<Layer> z_layer;
-    double backProp( vector<double> targetVals, int numCases);
+    double backProp();
     double z_error;
     double z_error_temp;
     vector<double> z_error_vector;
@@ -88,7 +88,7 @@ public:
     vector<double> temp_targets;
 };
 
-Net::Net(vector<unsigned> &topology){
+Net::Net(vector<unsigned> topology){
     
     for(int  numLayers = 0; numLayers<topology.size(); numLayers++){
         //unsigned numOutputs = numLayers == topology.size() - 1 ? 0 : topology[numLayers + 1];
@@ -116,7 +116,7 @@ Net::Net(vector<unsigned> &topology){
 
 void Net::mutate(){
     /*
-        //popVector[temp].z_layer[temp][temp].z_outputWeights[temp].weight
+     //popVector[temp].z_layer[temp][temp].z_outputWeights[temp].weight
      */
     for (int l =0 ; l < z_layer.size(); l++) {
         for (int n =0 ; n< z_layer[l].size(); n++) {
@@ -127,14 +127,17 @@ void Net::mutate(){
     }
 }
 
-void Net::feedForward(vector<double> inputVals, int numCases){
+void Net::feedForward(vector<double> inputVals, int numCases, vector<double> targetVals){
     int cycle_inputs = 0 ;
     temp_inputs.clear();
-    while (cycle_inputs<=(inputVals.size())) {
-        int push_vector = cycle_inputs;
+    z_error_vector.clear();
+    int cycle_target = 0 ;
+    while (cycle_inputs<(inputVals.size()) && cycle_target<(targetVals.size())) {
+        int push_vector_input = cycle_inputs;
+        int push_vector_target = cycle_target;
         for ( int temp =0 ; temp<(inputVals.size()/numCases); temp++) {
-            temp_inputs.push_back(inputVals[push_vector]);
-            push_vector++;
+            temp_inputs.push_back(inputVals[push_vector_input]);
+            push_vector_input++;
         }
         assert(temp_inputs.size() == z_layer[0].size()-1);
         for (unsigned i=0; i<temp_inputs.size(); ++i) {
@@ -147,24 +150,15 @@ void Net::feedForward(vector<double> inputVals, int numCases){
             }
         }
         temp_inputs.clear();
-        cycle_inputs += (inputVals.size()/numCases);
-    }
-}
-
-double Net::backProp(vector<double> targetVals, int numCases){
-    // Calculate overall net error (RMS of output neuron errors)
-    z_error_vector.clear();
-    int cycle_target = 0 ;
-    while (cycle_target<=(targetVals.size())) {
-        int push_vector = cycle_target;
+        
         for ( int temp =0 ; temp<(targetVals.size()/numCases); temp++) {
-            temp_targets.push_back(targetVals[push_vector]);
-            push_vector++;
+            temp_targets.push_back(targetVals[push_vector_target]);
+            push_vector_target++;
         }
         
         Layer &outputLayer = z_layer.back();
         z_error_temp = 0.0;
-    
+        
         for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
             double delta = temp_targets[n] - outputLayer[n].getOutputVal();
             z_error_temp += delta * delta;
@@ -172,8 +166,15 @@ double Net::backProp(vector<double> targetVals, int numCases){
         z_error_temp /= outputLayer.size() - 1; // get average error squared
         z_error_temp = sqrt(z_error)*100; // RMS
         z_error_vector.push_back(z_error_temp);
+        
+        temp_targets.clear();
+        
         cycle_target += (targetVals.size()/numCases);
+        cycle_inputs += (inputVals.size()/numCases);
     }
+}
+
+double Net::backProp(){
     z_error = 0.0;
     for (int temp = 0; temp< z_error_vector.size(); temp++) {
         z_error += z_error_vector[temp];
@@ -182,40 +183,54 @@ double Net::backProp(vector<double> targetVals, int numCases){
 }
 
 /*
-double Net::backProp( vector<double> targetVals,int numCases){
-    // Calculate overall net error (RMS of output neuron errors)
-    
-    Layer &outputLayer = z_layer.back();
-    z_error = 0.0;
-    
-    for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
-        double delta = targetVals[n] - outputLayer[n].getOutputVal();
-        z_error += delta * delta;
-    }
-    z_error /= outputLayer.size() - 1; // get average error squared
-    z_error = sqrt(z_error)*100; // RMS
-    return z_error;
-}
-*/
-
+ double Net::backProp(vector<double> targetVals, int numCases){
+ // Calculate overall net error (RMS of output neuron errors)
+ z_error_vector.clear();
+ int cycle_target = 0 ;
+ while (cycle_target<=(targetVals.size())) {
+ int push_vector = cycle_target;
+ for ( int temp =0 ; temp<(targetVals.size()/numCases); temp++) {
+ temp_targets.push_back(targetVals[push_vector]);
+ push_vector++;
+ }
+ 
+ Layer &outputLayer = z_layer.back();
+ z_error_temp = 0.0;
+ 
+ for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
+ double delta = temp_targets[n] - outputLayer[n].getOutputVal();
+ z_error_temp += delta * delta;
+ }
+ z_error_temp /= outputLayer.size() - 1; // get average error squared
+ z_error_temp = sqrt(z_error)*100; // RMS
+ z_error_vector.push_back(z_error_temp);
+ cycle_target += (targetVals.size()/numCases);
+ }
+ z_error = 0.0;
+ for (int temp = 0; temp< z_error_vector.size(); temp++) {
+ z_error += z_error_vector[temp];
+ }
+ return z_error;
+ }
+ */
 
 //This is for population of neural network
 class population{
 public:
-    population(int numNN,vector<unsigned> &topology);
+    population(int numNN,vector<unsigned> topology);
     vector<Net> popVector;
-    void runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN, int numCases);
+    void runNetwork(vector<double> inputVal, vector<double> targetVal,int numNN, int numCases);
     void sortError();
     void mutation(int numNN);
     void newerrorvector();
     void findindex();
     int returnIndex(int numNN);
     void repop(int numNN);
-
+    
 };
 
 // variables used: indiNet -- object to Net
-population::population(int numNN,vector<unsigned> &topology){
+population::population(int numNN,vector<unsigned> topology){
     
     for (int populationNum = 0 ; populationNum<numNN; populationNum++) {
         //cout<<"This is neural network:"<<populationNum<<endl;
@@ -254,14 +269,14 @@ void population::repop(int numNN){
 }
 
 
-void population::runNetwork(vector<double> &inputVal, vector<double> &targetVal,int numNN, int numCases){
+void population::runNetwork(vector<double> inputVal, vector<double> targetVal,int numNN, int numCases){
     
     bool runNetwork_flag = false;   // flag for print
     
     for (int temp=0 ; temp< numNN; temp++) {
         //Run neural network.
-        popVector[temp].feedForward(inputVal,numCases);
-        popVector[temp].backProp(targetVal,numCases);
+        popVector[temp].feedForward(inputVal,numCases,targetVal);
+        popVector[temp].backProp();
         cout<<popVector[temp].z_error<<endl;
     }
     
@@ -343,8 +358,7 @@ int main(int argc, const char * argv[]) {
         inputVal.push_back(1.0);
         inputVal.push_back(1.0);
         targetVal.push_back(0.0);
-        ///*
-         inputVal.push_back(1.0);
+        inputVal.push_back(1.0);
         inputVal.push_back(0.0);
         targetVal.push_back(1.0);
         inputVal.push_back(0.0);
@@ -353,8 +367,7 @@ int main(int argc, const char * argv[]) {
         inputVal.push_back(0.0);
         inputVal.push_back(0.0);
         targetVal.push_back(0.0);
-        //*/
-        for (int temp =0 ; temp<2000; temp++) {
+        for (int temp =0 ; temp<20; temp++) {
             mypop.runNetwork(inputVal, targetVal, numNN, numCases);
         }
         
