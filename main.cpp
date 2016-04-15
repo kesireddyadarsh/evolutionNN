@@ -111,6 +111,9 @@ Net::Net(vector<unsigned> topology){
             //cout<<"This is neuron number:"<<numNeurons<<endl;
             z_layer.back().push_back(Neuron(numOutputs, numNeurons));
         }
+        
+        z_layer.back().back().setOutputVal(1.0);
+
     }
 }
 
@@ -164,7 +167,7 @@ void Net::feedForward(vector<double> inputVals, int numCases, vector<double> tar
             z_error_temp += delta * delta;
         }
         z_error_temp /= outputLayer.size() - 1; // get average error squared
-        z_error_temp = sqrt(z_error)*100; // RMS
+        z_error_temp = sqrt(z_error_temp)*100; // RMS
         z_error_vector.push_back(z_error_temp);
         
         temp_targets.clear();
@@ -177,6 +180,7 @@ void Net::feedForward(vector<double> inputVals, int numCases, vector<double> tar
 double Net::backProp(){
     z_error = 0.0;
     for (int temp = 0; temp< z_error_vector.size(); temp++) {
+        cout<<z_error_vector[temp]<<"\t";
         z_error += z_error_vector[temp];
     }
     return z_error;
@@ -302,7 +306,7 @@ int main(int argc, const char * argv[]) {
     vector<double> resultVal;
     vector<double> targetVal;
     
-    int numNN=10;
+    int numNN=100;
     int numCases = 4;
     vector<unsigned> topology;
     topology.clear();
@@ -367,7 +371,7 @@ int main(int argc, const char * argv[]) {
         inputVal.push_back(0.0);
         inputVal.push_back(0.0);
         targetVal.push_back(0.0);
-        for (int temp =0 ; temp<20; temp++) {
+        for (int temp =0 ; temp<2000; temp++) {
             mypop.runNetwork(inputVal, targetVal, numNN, numCases);
         }
         
