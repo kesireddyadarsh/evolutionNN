@@ -100,7 +100,7 @@ Net::Net(vector<unsigned> topology){
             numOutputs= topology[numLayers+1];
         }
         
-        if(numOutputs>5){
+        if(numOutputs>11){
             cout<<"Stop it number outputs coming out"<<numOutputs<<endl;
             exit(10);
         }
@@ -186,37 +186,7 @@ double Net::backProp(){
     return z_error;
 }
 
-/*
- double Net::backProp(vector<double> targetVals, int numCases){
- // Calculate overall net error (RMS of output neuron errors)
- z_error_vector.clear();
- int cycle_target = 0 ;
- while (cycle_target<=(targetVals.size())) {
- int push_vector = cycle_target;
- for ( int temp =0 ; temp<(targetVals.size()/numCases); temp++) {
- temp_targets.push_back(targetVals[push_vector]);
- push_vector++;
- }
- 
- Layer &outputLayer = z_layer.back();
- z_error_temp = 0.0;
- 
- for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
- double delta = temp_targets[n] - outputLayer[n].getOutputVal();
- z_error_temp += delta * delta;
- }
- z_error_temp /= outputLayer.size() - 1; // get average error squared
- z_error_temp = sqrt(z_error)*100; // RMS
- z_error_vector.push_back(z_error_temp);
- cycle_target += (targetVals.size()/numCases);
- }
- z_error = 0.0;
- for (int temp = 0; temp< z_error_vector.size(); temp++) {
- z_error += z_error_vector[temp];
- }
- return z_error;
- }
- */
+
 
 //This is for population of neural network
 class population{
@@ -315,7 +285,7 @@ int main(int argc, const char * argv[]) {
     targetVal.clear();
     resultVal.clear();
     topology.push_back(2);
-    topology.push_back(4);
+    topology.push_back(10);
     topology.push_back(1);
     population mypop(numNN,topology);
     
@@ -376,11 +346,6 @@ int main(int argc, const char * argv[]) {
         }
         
     }
-    
-    //
-    //for (int i=0; i<=numNN; i++) {
-    
-    //}
     
     return 0;
 }
