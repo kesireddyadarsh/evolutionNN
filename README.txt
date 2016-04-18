@@ -1,5 +1,6 @@
 Conditions/Requirements for Vibrataions:
 
+Equation 2d(x)^2+8d(x)+16x=0;
 mass = 2;
 damper_constant = 8;
 spring_constant = 16;
