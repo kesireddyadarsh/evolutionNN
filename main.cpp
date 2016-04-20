@@ -50,8 +50,8 @@ Neuron::Neuron(unsigned numOutputs, unsigned myIndex){
 }
 
 double Neuron::transferFunction(double x){
-    //return tanh(x);
-    return ((x*x)+1);
+    return tanh(x);
+    //return ((x*x)+1);
 }
 
 
@@ -83,6 +83,7 @@ public:
     double backProp(const vector<double> targetVals);
     double z_error;
     void mutate();
+    double scale(double val);
 };
 
 Net::Net(vector<unsigned> &topology){
@@ -141,6 +142,12 @@ void Net::feedForward(const vector<double> inputVals){
     
 }
 
+double Net::scale(double val){
+    val *=(25);
+    val +=1;
+    return val;
+}
+
 double Net::backProp(const vector<double> targetVals){
     // Calculate overall net error (RMS of output neuron errors)
     
@@ -148,8 +155,8 @@ double Net::backProp(const vector<double> targetVals){
     z_error = 0.0;
     
     for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
-        cout<<"This is output value:: "<<outputLayer[n].getOutputVal()<<" for n:: "<<n<<endl;
-        double delta = targetVals[n] - outputLayer[n].getOutputVal();
+        cout<<"This is output value:: "<<scale(outputLayer[n].getOutputVal())<<" for n:: "<<n<<endl;
+        double delta = targetVals[n] - scale(outputLayer[n].getOutputVal());
         z_error += delta * delta;
     }
     z_error /= outputLayer.size() - 1; // get average error squared
@@ -257,7 +264,7 @@ int main(int argc, const char * argv[]) {
     bool z_debugger_flag = true;
     
     if(z_debugger_flag == true){
-        for (int iterations=0; iterations<2000; iterations++) {
+        for (int iterations=0; iterations<20000; iterations++) {
             inputVal.clear();
             targetVal.clear();
             int number = (rand() % 5);
