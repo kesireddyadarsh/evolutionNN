@@ -145,6 +145,7 @@ void Net::feedForward(const vector<double> inputVals){
 double Net::scale(double val){
     val *=(25);
     val +=1;
+    //val = fmod(val*100, 26)+1;
     return val;
 }
 
@@ -155,7 +156,7 @@ double Net::backProp(const vector<double> targetVals){
     z_error = 0.0;
     
     for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
-        cout<<"This is output value:: "<<scale(outputLayer[n].getOutputVal())<<" for n:: "<<n<<endl;
+        //cout<<"This is output value:: "<<scale(outputLayer[n].getOutputVal())<<" for n:: "<<n<<endl;
         double delta = targetVals[n] - scale(outputLayer[n].getOutputVal());
         z_error += delta * delta;
     }
