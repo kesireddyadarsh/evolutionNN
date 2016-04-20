@@ -50,7 +50,8 @@ Neuron::Neuron(unsigned numOutputs, unsigned myIndex){
 }
 
 double Neuron::transferFunction(double x){
-    return tanh(x);
+    //return tanh(x);
+    return ((x*x)+1);
 }
 
 
@@ -256,7 +257,7 @@ int main(int argc, const char * argv[]) {
     bool z_debugger_flag = true;
     
     if(z_debugger_flag == true){
-        for (int iterations=0; iterations<200; iterations++) {
+        for (int iterations=0; iterations<2000; iterations++) {
             inputVal.clear();
             targetVal.clear();
             int number = (rand() % 5);
