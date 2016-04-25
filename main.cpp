@@ -143,12 +143,14 @@ void Net::feedForward(vector<double> inputVal, vector<double> inputVal_scaled,  
     int cycle_inputs = 0 ;
     temp_inputs.clear();
     z_error_vector.clear();
+    cout<<"This is start of feedforward"<<endl;
     int cycle_target = 0 ;
     while (cycle_inputs<(inputVal.size()) ) {
         int push_vector_input = cycle_inputs;
         int push_vector_target = cycle_target;
         for ( int temp =0 ; temp<(inputVal_scaled.size()/numCases); temp++) {
             temp_inputs.push_back(inputVal_scaled.at(push_vector_input));
+            cout<<"This is the input:::"<<temp_inputs.at(temp)<<endl;
             push_vector_input++;
         }
         assert(temp_inputs.size() == z_layer[0].size()-1);
@@ -162,7 +164,26 @@ void Net::feedForward(vector<double> inputVal, vector<double> inputVal_scaled,  
             }
         }
         //find the target values using input*input+1
-     
+        cout<<"This is end of neural network \n\n\n"<<endl;
+        
+        //Function for output
+        double max_target = max_range*max_range+1;
+        double min_target = min_range*min_range+1;
+        
+        double target = temp_inputs[0]*temp_inputs[0]+1;
+        
+        double fitness = 0.0;
+        
+        temp_inputs.clear();
+        
+        Layer &outputLayer = z_layer.back();
+        for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
+            cout<<"This is in error function"<<endl;
+            double temp = scale(outputLayer[n].getOutputVal(),26,1);
+            fitness = target - temp;
+            cout<<"This is fitness::"<<fitness<<endl;
+        }
+        z_error_vector.push_back(fitness);
         cycle_inputs += (inputVal.size()/numCases);
     }
 }
@@ -241,6 +262,7 @@ void population::runNetwork(vector<double> inputVal, vector<double> inputVal_sca
     
     for (int temp=0 ; temp< numNN; temp++) {
         //Run neural network.
+        cout<<"This is neural network ::"<<numNN<<"\n\n"<<endl;
         popVector[temp].feedForward(inputVal, inputVal_scaled, numCases,  max_range,  min_range, interval);
         popVector[temp].backProp();
         cout<<popVector[temp].z_error<<endl;
@@ -250,7 +272,7 @@ void population::runNetwork(vector<double> inputVal, vector<double> inputVal_sca
         int temp_index = returnIndex(popVector.size());
         popVector.erase(popVector.begin()+temp_index);
     }
-    cout<<"This is size::"<<popVector.size()<<endl;
+    //cout<<"This is size::"<<popVector.size()<<endl;
     repop(numNN);
 }
 
@@ -273,7 +295,7 @@ int main(int argc, const char * argv[]) {
     vector<double> inputVal;
     
     
-    int numNN=10;
+    int numNN=1;
     int numCases = 0;
     int max_range = 5;
     int min_range = 0;
