@@ -69,7 +69,7 @@ void Neuron::feedForward(const Layer prevLayer){
         sum += prevLayer[n].getOutputVal() * prevLayer[n].z_outputWeights[z_myIndex].weight;
         //cout<<"This is sum value"<<sum<<endl;
     }
-    cout<<"This is output passing to node::"<<sum<<endl;
+    //cout<<"This is output passing to node::"<<sum<<endl;
     z_outputVal = Neuron::transferFunction(sum);
 }
 
@@ -87,6 +87,7 @@ public:
     void mutate();
     vector<double> temp_inputs;
     vector<double> temp_targets;
+    vector<double> temp_ref;
     double scale(double val, int max_range, int min_range);
 };
 
@@ -135,7 +136,7 @@ void Net::mutate(){
 double Net::scale(double val, int max_range, int min_range){
     val = val *(max_range-min_range); // val = val * (max-min);
     val = val + min_range; // val =val + (min)
-    cout<<"This is var in scale for output:: "<<val<<endl;
+    //cout<<"This is var in scale for output:: "<<val<<endl;
     return val;
 }
 
@@ -143,14 +144,18 @@ void Net::feedForward(vector<double> inputVal, vector<double> inputVal_scaled,  
     int cycle_inputs = 0 ;
     temp_inputs.clear();
     z_error_vector.clear();
+    
     cout<<"This is start of feedforward"<<endl;
+    
     int cycle_target = 0 ;
+    
     while (cycle_inputs<(inputVal.size()) ) {
         int push_vector_input = cycle_inputs;
         int push_vector_target = cycle_target;
         for ( int temp =0 ; temp<(inputVal_scaled.size()/numCases); temp++) {
             temp_inputs.push_back(inputVal_scaled.at(push_vector_input));
-            cout<<"This is the input:::"<<temp_inputs.at(temp)<<endl;
+            temp_ref.push_back(inputVal.at(push_vector_input));
+            //cout<<"This is the input:::"<<temp_inputs.at(temp)<<endl;
             push_vector_input++;
         }
         assert(temp_inputs.size() == z_layer[0].size()-1);
@@ -164,24 +169,25 @@ void Net::feedForward(vector<double> inputVal, vector<double> inputVal_scaled,  
             }
         }
         //find the target values using input*input+1
-        cout<<"This is end of neural network \n\n\n"<<endl;
+        //cout<<"This is end of neural network \n\n\n"<<endl;
         
         //Function for output
         double max_target = max_range*max_range+1;
         double min_target = min_range*min_range+1;
         
-        double target = temp_inputs[0]*temp_inputs[0]+1;
+        double target = temp_ref[0]*temp_ref[0]+1;
         
         double fitness = 0.0;
         
         temp_inputs.clear();
-        
+        temp_ref.clear();
         Layer &outputLayer = z_layer.back();
         for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
-            cout<<"This is in error function"<<endl;
+            //cout<<"This is in error function"<<endl;
             double temp = scale(outputLayer[n].getOutputVal(),26,1);
-            fitness = target - temp;
-            cout<<"This is fitness::"<<fitness<<endl;
+            fitness = temp - target;
+            fitness = (fitness > 0)?fitness:-fitness;
+            //cout<<"This is fitness::"<<fitness<<endl;
         }
         z_error_vector.push_back(fitness);
         cycle_inputs += (inputVal.size()/numCases);
@@ -234,10 +240,10 @@ int population::returnIndex(int numNN){
     while (number_1 == number_2) {
         number_2 = (rand() % temp);
     }
-    double temp_1 =popVector[number_1].z_error;
-    double temp_2 =popVector[number_2].z_error;
-    cout<<"This is error in comparision::"<<popVector[number_1].z_error<<endl;
-    cout<<"This is error in comparision::"<<popVector[number_2].z_error<<endl;
+    //double temp_1 =popVector[number_1].z_error;
+    //double temp_2 =popVector[number_2].z_error;
+    //cout<<"This is error in comparision::"<<popVector[number_1].z_error<<endl;
+    //cout<<"This is error in comparision::"<<popVector[number_2].z_error<<endl;
     
     if (popVector[number_1].z_error<popVector[number_2].z_error) {
         return number_2;
@@ -295,7 +301,7 @@ int main(int argc, const char * argv[]) {
     vector<double> inputVal;
     
     
-    int numNN=1;
+    int numNN=100;
     int numCases = 0;
     int max_range = 5;
     int min_range = 0;
@@ -312,7 +318,7 @@ int main(int argc, const char * argv[]) {
     bool test_init = true;
     
     if (test_init==true) {
-        for (int iterations = 0; iterations<1; iterations++) {
+        for (int iterations = 0; iterations<100; iterations++) {
             for (float number =0.0 ; number<=5; number=number+interval) {
                 inputVal.push_back(number);
                 inputVal_scaled.push_back(scale_input(number,max_range,min_range));
@@ -322,6 +328,7 @@ int main(int argc, const char * argv[]) {
             inputVal_scaled.clear();
             inputVal.clear();
         }
+        cout<<"This is completed errors"<<endl;
     }
     
     
