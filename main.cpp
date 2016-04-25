@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  x2+1_V2
+//  x2+1_v3
 //
-//  Created by adarsh kesireddy on 4/20/16.
+//  Created by adarsh kesireddy on 4/23/16.
 //  Copyright © 2016 adarsh kesireddy. All rights reserved.
 //
 
@@ -78,7 +78,7 @@ void Neuron::feedForward(const Layer prevLayer){
 class Net{
 public:
     Net(vector<unsigned> topology);
-    void feedForward(vector<double> inputVals, int numCases, vector<double> targetVals);
+    void feedForward(vector<double> inputVal, vector<double> inputVal_scaled,  int numCases, int max_range, int min_range, double interval);
     vector<Layer> z_layer;
     double backProp();
     double z_error;
@@ -87,7 +87,7 @@ public:
     void mutate();
     vector<double> temp_inputs;
     vector<double> temp_targets;
-    double scale(double var);
+    double scale(double val, int max_range, int min_range);
 };
 
 Net::Net(vector<unsigned> topology){
@@ -132,23 +132,23 @@ void Net::mutate(){
     }
 }
 
-double Net::scale(double var){
-    var *=(25); // val = val * (max-min);
-    var +=(1); // val =val + (min)
-    cout<<"This is var in scale for output:: "<<var<<endl;
-    return var;
+double Net::scale(double val, int max_range, int min_range){
+    val = val *(max_range-min_range); // val = val * (max-min);
+    val = val + min_range; // val =val + (min)
+    cout<<"This is var in scale for output:: "<<val<<endl;
+    return val;
 }
 
-void Net::feedForward(vector<double> inputVals, int numCases, vector<double> targetVals){
+void Net::feedForward(vector<double> inputVal, vector<double> inputVal_scaled,  int numCases, int max_range, int min_range, double interval){
     int cycle_inputs = 0 ;
     temp_inputs.clear();
     z_error_vector.clear();
     int cycle_target = 0 ;
-    while (cycle_inputs<(inputVals.size()) && cycle_target<(targetVals.size())) {
+    while (cycle_inputs<(inputVal.size()) ) {
         int push_vector_input = cycle_inputs;
         int push_vector_target = cycle_target;
-        for ( int temp =0 ; temp<(inputVals.size()/numCases); temp++) {
-            temp_inputs.push_back(inputVals[push_vector_input]);
+        for ( int temp =0 ; temp<(inputVal_scaled.size()/numCases); temp++) {
+            temp_inputs.push_back(inputVal_scaled.at(push_vector_input));
             push_vector_input++;
         }
         assert(temp_inputs.size() == z_layer[0].size()-1);
@@ -161,28 +161,9 @@ void Net::feedForward(vector<double> inputVals, int numCases, vector<double> tar
                 z_layer[layerNum][n].feedForward(prevLayer);
             }
         }
-        temp_inputs.clear();
-        
-        for ( int temp =0 ; temp<(targetVals.size()/numCases); temp++) {
-            temp_targets.push_back(targetVals[push_vector_target]);
-            push_vector_target++;
-        }
-        
-        Layer &outputLayer = z_layer.back();
-        z_error_temp = 0.0;
-        
-        for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
-            double delta = temp_targets[n] - scale(outputLayer[n].getOutputVal());
-            z_error_temp += delta * delta;
-        }
-        z_error_temp /= outputLayer.size() - 1; // get average error squared
-        z_error_temp = sqrt(z_error_temp)*100; // RMS
-        z_error_vector.push_back(z_error_temp);
-        
-        temp_targets.clear();
-        
-        cycle_target += (targetVals.size()/numCases);
-        cycle_inputs += (inputVals.size()/numCases);
+        //find the target values using input*input+1
+     
+        cycle_inputs += (inputVal.size()/numCases);
     }
 }
 
@@ -202,7 +183,7 @@ class population{
 public:
     population(int numNN,vector<unsigned> topology);
     vector<Net> popVector;
-    void runNetwork(vector<double> inputVal, vector<double> targetVal,int numNN, int numCases);
+    void runNetwork(vector<double> inputVal, vector<double> inputVal_scaled, int numNN, int numCases, int max_range, int min_range, double interval);
     void sortError();
     void mutation(int numNN);
     void newerrorvector();
@@ -256,13 +237,11 @@ void population::repop(int numNN){
 }
 
 
-void population::runNetwork(vector<double> inputVal, vector<double> targetVal,int numNN, int numCases){
-    
-    bool runNetwork_flag = false;   // flag for print
+void population::runNetwork(vector<double> inputVal, vector<double> inputVal_scaled, int numNN, int numCases, int max_range, int min_range, double interval){
     
     for (int temp=0 ; temp< numNN; temp++) {
         //Run neural network.
-        popVector[temp].feedForward(inputVal,numCases,targetVal);
+        popVector[temp].feedForward(inputVal, inputVal_scaled, numCases,  max_range,  min_range, interval);
         popVector[temp].backProp();
         cout<<popVector[temp].z_error<<endl;
     }
@@ -275,9 +254,9 @@ void population::runNetwork(vector<double> inputVal, vector<double> targetVal,in
     repop(numNN);
 }
 
-double scale_input(double var){
+double scale_input(double var,int max_range, int min_range){
     //cout<<"This is value before scale::"<<var<<endl;
-    var = (var - 0)/10; //value - min/max-min
+    var = (var - min_range)/(max_range-min_range); //value - min/max-min
     //cout<<"This is var in scale_input:: "<<var<<endl;
     return var;
 }
@@ -290,113 +269,39 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     //cout << "Hello, World!\n";
     srand(time(NULL));
+    vector<double> inputVal_scaled;
     vector<double> inputVal;
-    vector<double> outputVal;
-    vector<double> resultVal;
-    vector<double> targetVal;
+    
     
     int numNN=10;
-    int numCases = 3;
+    int numCases = 0;
+    int max_range = 5;
+    int min_range = 0;
+    double interval = 0.1;
+    
     vector<unsigned> topology;
     topology.clear();
     inputVal.clear();
-    outputVal.clear();
-    targetVal.clear();
-    resultVal.clear();
     topology.push_back(1);
     topology.push_back(4);
     topology.push_back(1);
     population mypop(numNN,topology);
     
-    
-    
-    /*for (int iteration = 0; iteration<10; iteration++) {
-        inputVal.clear();
-        targetVal.clear();
-        int number = (rand() % 5);
-        double target = ((number*number)+1);
-        cout<<"This is number::"<<number<<endl;
-        inputVal.push_back(scale_input(number));
-        cout<<"This is required output:: "<<target<<endl;
-        targetVal.push_back(target);
-        
-        mypop.runNetwork(inputVal, targetVal, numNN, numCases);
-
-    }*/
-    
-    bool test_case_1= false;
-    bool test_case_2=true;
-    bool test_init = false;
-    //bool test_evaluate = false;
-    //bool test_downselect = false;
-    //bool test_replicate = false;
-    
-    if (test_case_1 == true) {
-    for(int iterations = 0; iterations<20000; iterations++ ){
-        int number = (rand()%5);
-        double target =(number*number)+1;
-        inputVal.push_back(scale_input(number));
-        targetVal.push_back((number*number)+1);
-        if (number==0 || number == 1 || number == 2 ) {
-            inputVal.push_back(scale_input(number+1));
-            targetVal.push_back(((number+1)*(number+1))+1);
-            inputVal.push_back(scale_input(number+2));
-            targetVal.push_back(((number+2)*(number+2))+1);
-            inputVal.push_back(scale_input(number+3));
-            targetVal.push_back(((number+3)*(number+3))+1);
-        }else if (number==4){
-            inputVal.push_back(scale_input(number+1));
-            targetVal.push_back(((number+1)*(number+1))+1);
-            inputVal.push_back(scale_input(number-1));
-            targetVal.push_back(((number-1)*(number-1))+1);
-            inputVal.push_back(scale_input(number-2));
-            targetVal.push_back(((number-2)*(number-2))+1);
-        }else if (number == 5){
-            inputVal.push_back(scale_input(number-1));
-            targetVal.push_back(((number-1)*(number-1))+1);
-            inputVal.push_back(scale_input(number-2));
-            targetVal.push_back(((number-2)*(number-2))+1);
-            inputVal.push_back(scale_input(number-3));
-            targetVal.push_back(((number-3)*(number-3))+1);
-        }else if (number == 3){
-            inputVal.push_back(scale_input(number+1));
-            targetVal.push_back(((number+1)*(number+1))+1);
-            inputVal.push_back(scale_input(number+2));
-            targetVal.push_back(((number+2)*(number+2))+1);
-            inputVal.push_back(scale_input(number-1));
-            targetVal.push_back(((number-1)*(number-1))+1);
-        }
-        numCases = inputVal.size();
-    
-        mypop.runNetwork(inputVal, targetVal, numNN, numCases);
-        targetVal.clear();
-        inputVal.clear();
-    }
-    }
-    
-    if (test_case_2 == true) {
-        for (int iterations = 0 ; iterations<5; iterations++) {
-            inputVal.clear();
-            targetVal.clear();
-            for (int number =0 ; number<=10; number++) {
-                inputVal.push_back(scale_input(number));
-                targetVal.push_back(number*number+1);
-            }
-            numCases = inputVal.size();
-            mypop.runNetwork(inputVal, targetVal, numNN, numCases);
-        }
-    }
+    bool test_init = true;
     
     if (test_init==true) {
-        for (int iterations = 0; iterations<20; iterations++) {
-            for (int number =0 ; number<=5; number++) {
-                inputVal.push_back(scale_input(number));
-                targetVal.push_back(number*number);
+        for (int iterations = 0; iterations<1; iterations++) {
+            for (float number =0.0 ; number<=5; number=number+interval) {
+                inputVal.push_back(number);
+                inputVal_scaled.push_back(scale_input(number,max_range,min_range));
             }
             numCases = inputVal.size();
-            mypop.runNetwork(inputVal, targetVal, numNN, numCases);
+            mypop.runNetwork(inputVal, inputVal_scaled, numNN, numCases, max_range, min_range, interval);
+            inputVal_scaled.clear();
+            inputVal.clear();
         }
     }
+    
     
     return 0;
 }
