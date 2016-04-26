@@ -13,6 +13,8 @@
 #include <cassert>
 #include <time.h>
 #include <stdlib.h>
+#include <algorithm>
+#include <fstream>
 
 using namespace std;
 
@@ -89,6 +91,7 @@ public:
     vector<double> temp_targets;
     vector<double> temp_ref;
     double scale(double val, int max_range, int min_range);
+    vector<double> outputvalues;
 };
 
 Net::Net(vector<unsigned> topology){
@@ -145,7 +148,6 @@ void Net::feedForward(vector<double> inputVal, vector<double> inputVal_scaled,  
     temp_inputs.clear();
     z_error_vector.clear();
     
-    cout<<"This is start of feedforward"<<endl;
     
     int cycle_target = 0 ;
     
@@ -155,7 +157,6 @@ void Net::feedForward(vector<double> inputVal, vector<double> inputVal_scaled,  
         for ( int temp =0 ; temp<(inputVal_scaled.size()/numCases); temp++) {
             temp_inputs.push_back(inputVal_scaled.at(push_vector_input));
             temp_ref.push_back(inputVal.at(push_vector_input));
-            //cout<<"This is the input:::"<<temp_inputs.at(temp)<<endl;
             push_vector_input++;
         }
         assert(temp_inputs.size() == z_layer[0].size()-1);
@@ -168,8 +169,6 @@ void Net::feedForward(vector<double> inputVal, vector<double> inputVal_scaled,  
                 z_layer[layerNum][n].feedForward(prevLayer);
             }
         }
-        //find the target values using input*input+1
-        //cout<<"This is end of neural network \n\n\n"<<endl;
         
         //Function for output
         double max_target = max_range*max_range+1;
@@ -183,21 +182,21 @@ void Net::feedForward(vector<double> inputVal, vector<double> inputVal_scaled,  
         temp_ref.clear();
         Layer &outputLayer = z_layer.back();
         for (unsigned n = 0; n < outputLayer.size() - 1; ++n) {
-            //cout<<"This is in error function"<<endl;
             double temp = scale(outputLayer[n].getOutputVal(),26,1);
+            outputvalues.push_back(temp);
             fitness = temp - target;
             fitness = (fitness > 0)?fitness:-fitness;
-            //cout<<"This is fitness::"<<fitness<<endl;
         }
         z_error_vector.push_back(fitness);
         cycle_inputs += (inputVal.size()/numCases);
     }
 }
 
+
 double Net::backProp(){
     z_error = 0.0;
     for (int temp = 0; temp< z_error_vector.size(); temp++) {
-        cout<<z_error_vector[temp]<<"\t";
+        //cout<<z_error_vector[temp]<<"\t";
         z_error += z_error_vector[temp];
     }
     return z_error;
@@ -217,6 +216,7 @@ public:
     void findindex();
     int returnIndex(int numNN);
     void repop(int numNN);
+    vector<double> error_vector;
     
 };
 
@@ -268,12 +268,28 @@ void population::runNetwork(vector<double> inputVal, vector<double> inputVal_sca
     
     for (int temp=0 ; temp< numNN; temp++) {
         //Run neural network.
-        cout<<"This is neural network ::"<<numNN<<"\n\n"<<endl;
         popVector[temp].feedForward(inputVal, inputVal_scaled, numCases,  max_range,  min_range, interval);
         popVector[temp].backProp();
-        cout<<popVector[temp].z_error<<endl;
+        error_vector.push_back(popVector[temp].z_error);
+        cout<<popVector[temp].z_error<<"\t";
     }
-    
+    sort(error_vector.begin(), error_vector.end());
+    for (int check_lowest_error = 0 ; check_lowest_error<error_vector.size(); check_lowest_error++) {
+        if(error_vector.at(0)==popVector[check_lowest_error].z_error){
+            cout<<" this"<<popVector[check_lowest_error].z_layer[2][0].z_outputVal<<endl;
+            
+            cout<<popVector[check_lowest_error].z_error<<endl;
+            error_vector.clear();
+            for (int temp_1 =0 ; temp_1<popVector[check_lowest_error].outputvalues.size(); temp_1++) {
+                cout<<popVector.at(check_lowest_error).outputvalues.at(temp_1)<<"\t";
+            }
+            cout<<"completed"<<endl;
+            for (int temp_2 =0; temp_2<popVector[temp_2].outputvalues.size(); temp_2++) {
+                popVector.at(temp_2).outputvalues.clear();
+            }
+        }
+        
+    }
     for (int temp = 0 ; temp < numNN/2; temp++) {
         int temp_index = returnIndex(popVector.size());
         popVector.erase(popVector.begin()+temp_index);
@@ -283,9 +299,7 @@ void population::runNetwork(vector<double> inputVal, vector<double> inputVal_sca
 }
 
 double scale_input(double var,int max_range, int min_range){
-    //cout<<"This is value before scale::"<<var<<endl;
     var = (var - min_range)/(max_range-min_range); //value - min/max-min
-    //cout<<"This is var in scale_input:: "<<var<<endl;
     return var;
 }
 
@@ -318,7 +332,7 @@ int main(int argc, const char * argv[]) {
     bool test_init = true;
     
     if (test_init==true) {
-        for (int iterations = 0; iterations<100; iterations++) {
+        for (int iterations = 0; iterations<10000; iterations++) {
             for (float number =0.0 ; number<=5; number=number+interval) {
                 inputVal.push_back(number);
                 inputVal_scaled.push_back(scale_input(number,max_range,min_range));
@@ -327,8 +341,10 @@ int main(int argc, const char * argv[]) {
             mypop.runNetwork(inputVal, inputVal_scaled, numNN, numCases, max_range, min_range, interval);
             inputVal_scaled.clear();
             inputVal.clear();
+            cout<<iterations<<endl;
         }
-        cout<<"This is completed errors"<<endl;
+        //cout<<"This is completed errors"<<endl;
+        
     }
     
     
