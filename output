@@ -1,0 +1,4601 @@
+This is input provided0
+This is target value1
+This is output value:: 0.960278 for n:: 0
+This is error percentage::3.97218from ::0
+This is output value:: 0.9578 for n:: 0
+This is error percentage::4.22from ::1
+This is output value:: 0.961912 for n:: 0
+This is error percentage::3.80882from ::2
+This is output value:: 0.979794 for n:: 0
+This is error percentage::2.02062from ::3
+This is output value:: 0.937648 for n:: 0
+This is error percentage::6.23518from ::4
+This is output value:: 0.824887 for n:: 0
+This is error percentage::17.5113from ::5
+This is output value:: 0.929904 for n:: 0
+This is error percentage::7.00958from ::6
+This is output value:: 0.99774 for n:: 0
+This is error percentage::0.226014from ::7
+This is output value:: 0.934625 for n:: 0
+This is error percentage::6.53753from ::8
+This is output value:: 0.992001 for n:: 0
+This is error percentage::0.799874from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 0.997063 for n:: 0
+This is error percentage::400.294from ::0
+This is output value:: 0.998654 for n:: 0
+This is error percentage::400.135from ::1
+This is output value:: 0.992996 for n:: 0
+This is error percentage::400.7from ::2
+This is output value:: 0.999809 for n:: 0
+This is error percentage::400.019from ::3
+This is output value:: 0.9987 for n:: 0
+This is error percentage::400.13from ::4
+This is output value:: 0.998571 for n:: 0
+This is error percentage::400.143from ::5
+This is output value:: 0.99697 for n:: 0
+This is error percentage::400.303from ::6
+This is output value:: 0.995736 for n:: 0
+This is error percentage::400.426from ::7
+This is output value:: 0.998995 for n:: 0
+This is error percentage::400.101from ::8
+This is output value:: 0.998979 for n:: 0
+This is error percentage::400.102from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.960278 for n:: 0
+This is error percentage::3.97218from ::0
+This is output value:: 0.99774 for n:: 0
+This is error percentage::0.226014from ::1
+This is output value:: 0.992001 for n:: 0
+This is error percentage::0.799874from ::2
+This is output value:: 0.993036 for n:: 0
+This is error percentage::0.696416from ::3
+This is output value:: 0.99346 for n:: 0
+This is error percentage::0.653989from ::4
+This is output value:: 0.991205 for n:: 0
+This is error percentage::0.879482from ::5
+This is output value:: 0.993592 for n:: 0
+This is error percentage::0.640779from ::6
+This is output value:: 0.997452 for n:: 0
+This is error percentage::0.254752from ::7
+This is output value:: 0.994551 for n:: 0
+This is error percentage::0.544901from ::8
+This is output value:: 0.997845 for n:: 0
+This is error percentage::0.215534from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.99774 for n:: 0
+This is error percentage::0.226014from ::0
+This is output value:: 0.993036 for n:: 0
+This is error percentage::0.696416from ::1
+This is output value:: 0.997452 for n:: 0
+This is error percentage::0.254752from ::2
+This is output value:: 0.994551 for n:: 0
+This is error percentage::0.544901from ::3
+This is output value:: 0.997845 for n:: 0
+This is error percentage::0.215534from ::4
+This is output value:: 0.997703 for n:: 0
+This is error percentage::0.229733from ::5
+This is output value:: 0.997494 for n:: 0
+This is error percentage::0.250604from ::6
+This is output value:: 0.995658 for n:: 0
+This is error percentage::0.434176from ::7
+This is output value:: 0.994277 for n:: 0
+This is error percentage::0.572252from ::8
+This is output value:: 0.994966 for n:: 0
+This is error percentage::0.503409from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 0.99975 for n:: 0
+This is error percentage::400.025from ::0
+This is output value:: 0.999792 for n:: 0
+This is error percentage::400.021from ::1
+This is output value:: 0.999788 for n:: 0
+This is error percentage::400.021from ::2
+This is output value:: 0.999775 for n:: 0
+This is error percentage::400.022from ::3
+This is output value:: 0.998868 for n:: 0
+This is error percentage::400.113from ::4
+This is output value:: 0.999761 for n:: 0
+This is error percentage::400.024from ::5
+This is output value:: 0.999661 for n:: 0
+This is error percentage::400.034from ::6
+This is output value:: 0.997887 for n:: 0
+This is error percentage::400.211from ::7
+This is output value:: 0.997958 for n:: 0
+This is error percentage::400.204from ::8
+This is output value:: 0.99987 for n:: 0
+This is error percentage::400.013from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 0.999792 for n:: 0
+This is error percentage::400.021from ::0
+This is output value:: 0.999788 for n:: 0
+This is error percentage::400.021from ::1
+This is output value:: 0.999775 for n:: 0
+This is error percentage::400.022from ::2
+This is output value:: 0.999761 for n:: 0
+This is error percentage::400.024from ::3
+This is output value:: 0.99987 for n:: 0
+This is error percentage::400.013from ::4
+This is output value:: 0.999767 for n:: 0
+This is error percentage::400.023from ::5
+This is output value:: 0.9998 for n:: 0
+This is error percentage::400.02from ::6
+This is output value:: 0.999754 for n:: 0
+This is error percentage::400.025from ::7
+This is output value:: 0.999696 for n:: 0
+This is error percentage::400.03from ::8
+This is output value:: 0.999753 for n:: 0
+This is error percentage::400.025from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999864 for n:: 0
+This is error percentage::1600.01from ::0
+This is output value:: 0.99985 for n:: 0
+This is error percentage::1600.02from ::1
+This is output value:: 0.999911 for n:: 0
+This is error percentage::1600.01from ::2
+This is output value:: 0.999841 for n:: 0
+This is error percentage::1600.02from ::3
+This is output value:: 0.99987 for n:: 0
+This is error percentage::1600.01from ::4
+This is output value:: 0.999826 for n:: 0
+This is error percentage::1600.02from ::5
+This is output value:: 0.99987 for n:: 0
+This is error percentage::1600.01from ::6
+This is output value:: 0.999874 for n:: 0
+This is error percentage::1600.01from ::7
+This is output value:: 0.999822 for n:: 0
+This is error percentage::1600.02from ::8
+This is output value:: 0.999882 for n:: 0
+This is error percentage::1600.01from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.998456 for n:: 0
+This is error percentage::0.15435from ::0
+This is output value:: 0.99702 for n:: 0
+This is error percentage::0.29797from ::1
+This is output value:: 0.99814 for n:: 0
+This is error percentage::0.185952from ::2
+This is output value:: 0.998048 for n:: 0
+This is error percentage::0.195246from ::3
+This is output value:: 0.997704 for n:: 0
+This is error percentage::0.229562from ::4
+This is output value:: 0.998108 for n:: 0
+This is error percentage::0.18917from ::5
+This is output value:: 0.99706 for n:: 0
+This is error percentage::0.293997from ::6
+This is output value:: 0.996611 for n:: 0
+This is error percentage::0.338887from ::7
+This is output value:: 0.997223 for n:: 0
+This is error percentage::0.277659from ::8
+This is output value:: 0.99769 for n:: 0
+This is error percentage::0.230977from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 0.999755 for n:: 0
+This is error percentage::100.024from ::0
+This is output value:: 0.99969 for n:: 0
+This is error percentage::100.031from ::1
+This is output value:: 0.999454 for n:: 0
+This is error percentage::100.055from ::2
+This is output value:: 0.999512 for n:: 0
+This is error percentage::100.049from ::3
+This is output value:: 0.999668 for n:: 0
+This is error percentage::100.033from ::4
+This is output value:: 0.999768 for n:: 0
+This is error percentage::100.023from ::5
+This is output value:: 0.999759 for n:: 0
+This is error percentage::100.024from ::6
+This is output value:: 0.999654 for n:: 0
+This is error percentage::100.035from ::7
+This is output value:: 0.99961 for n:: 0
+This is error percentage::100.039from ::8
+This is output value:: 0.999607 for n:: 0
+This is error percentage::100.039from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 0.999898 for n:: 0
+This is error percentage::900.01from ::0
+This is output value:: 0.999857 for n:: 0
+This is error percentage::900.014from ::1
+This is output value:: 0.999778 for n:: 0
+This is error percentage::900.022from ::2
+This is output value:: 0.999912 for n:: 0
+This is error percentage::900.009from ::3
+This is output value:: 0.999874 for n:: 0
+This is error percentage::900.013from ::4
+This is output value:: 0.999862 for n:: 0
+This is error percentage::900.014from ::5
+This is output value:: 0.99992 for n:: 0
+This is error percentage::900.008from ::6
+This is output value:: 0.999884 for n:: 0
+This is error percentage::900.012from ::7
+This is output value:: 0.99992 for n:: 0
+This is error percentage::900.008from ::8
+This is output value:: 0.999895 for n:: 0
+This is error percentage::900.011from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999911 for n:: 0
+This is error percentage::1600.01from ::0
+This is output value:: 0.99987 for n:: 0
+This is error percentage::1600.01from ::1
+This is output value:: 0.999923 for n:: 0
+This is error percentage::1600.01from ::2
+This is output value:: 0.99993 for n:: 0
+This is error percentage::1600.01from ::3
+This is output value:: 0.999931 for n:: 0
+This is error percentage::1600.01from ::4
+This is output value:: 0.999863 for n:: 0
+This is error percentage::1600.01from ::5
+This is output value:: 0.99987 for n:: 0
+This is error percentage::1600.01from ::6
+This is output value:: 0.999927 for n:: 0
+This is error percentage::1600.01from ::7
+This is output value:: 0.999877 for n:: 0
+This is error percentage::1600.01from ::8
+This is output value:: 0.999912 for n:: 0
+This is error percentage::1600.01from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 0.999898 for n:: 0
+This is error percentage::900.01from ::0
+This is output value:: 0.999857 for n:: 0
+This is error percentage::900.014from ::1
+This is output value:: 0.99992 for n:: 0
+This is error percentage::900.008from ::2
+This is output value:: 0.99992 for n:: 0
+This is error percentage::900.008from ::3
+This is output value:: 0.999901 for n:: 0
+This is error percentage::900.01from ::4
+This is output value:: 0.999897 for n:: 0
+This is error percentage::900.01from ::5
+This is output value:: 0.999903 for n:: 0
+This is error percentage::900.01from ::6
+This is output value:: 0.999864 for n:: 0
+This is error percentage::900.014from ::7
+This is output value:: 0.999896 for n:: 0
+This is error percentage::900.01from ::8
+This is output value:: 0.999883 for n:: 0
+This is error percentage::900.012from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999911 for n:: 0
+This is error percentage::1600.01from ::0
+This is output value:: 0.999931 for n:: 0
+This is error percentage::1600.01from ::1
+This is output value:: 0.999912 for n:: 0
+This is error percentage::1600.01from ::2
+This is output value:: 0.999908 for n:: 0
+This is error percentage::1600.01from ::3
+This is output value:: 0.999916 for n:: 0
+This is error percentage::1600.01from ::4
+This is output value:: 0.99986 for n:: 0
+This is error percentage::1600.01from ::5
+This is output value:: 0.999884 for n:: 0
+This is error percentage::1600.01from ::6
+This is output value:: 0.999864 for n:: 0
+This is error percentage::1600.01from ::7
+This is output value:: 0.999914 for n:: 0
+This is error percentage::1600.01from ::8
+This is output value:: 0.999923 for n:: 0
+This is error percentage::1600.01from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.997932 for n:: 0
+This is error percentage::0.206831from ::0
+This is output value:: 0.998549 for n:: 0
+This is error percentage::0.145098from ::1
+This is output value:: 0.998084 for n:: 0
+This is error percentage::0.191572from ::2
+This is output value:: 0.997551 for n:: 0
+This is error percentage::0.244945from ::3
+This is output value:: 0.998472 for n:: 0
+This is error percentage::0.152786from ::4
+This is output value:: 0.998931 for n:: 0
+This is error percentage::0.106879from ::5
+This is output value:: 0.997949 for n:: 0
+This is error percentage::0.205139from ::6
+This is output value:: 0.996819 for n:: 0
+This is error percentage::0.318108from ::7
+This is output value:: 0.99821 for n:: 0
+This is error percentage::0.178998from ::8
+This is output value:: 0.99875 for n:: 0
+This is error percentage::0.124965from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.998084 for n:: 0
+This is error percentage::0.191572from ::0
+This is output value:: 0.998931 for n:: 0
+This is error percentage::0.106879from ::1
+This is output value:: 0.997949 for n:: 0
+This is error percentage::0.205139from ::2
+This is output value:: 0.99821 for n:: 0
+This is error percentage::0.178998from ::3
+This is output value:: 0.99875 for n:: 0
+This is error percentage::0.124965from ::4
+This is output value:: 0.998868 for n:: 0
+This is error percentage::0.11323from ::5
+This is output value:: 0.997983 for n:: 0
+This is error percentage::0.20173from ::6
+This is output value:: 0.999134 for n:: 0
+This is error percentage::0.0865733from ::7
+This is output value:: 0.99903 for n:: 0
+This is error percentage::0.0969704from ::8
+This is output value:: 0.998671 for n:: 0
+This is error percentage::0.132916from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.998931 for n:: 0
+This is error percentage::0.106879from ::0
+This is output value:: 0.99821 for n:: 0
+This is error percentage::0.178998from ::1
+This is output value:: 0.997983 for n:: 0
+This is error percentage::0.20173from ::2
+This is output value:: 0.999134 for n:: 0
+This is error percentage::0.0865733from ::3
+This is output value:: 0.99903 for n:: 0
+This is error percentage::0.0969704from ::4
+This is output value:: 0.999142 for n:: 0
+This is error percentage::0.0858135from ::5
+This is output value:: 0.999097 for n:: 0
+This is error percentage::0.090336from ::6
+This is output value:: 0.998687 for n:: 0
+This is error percentage::0.131295from ::7
+This is output value:: 0.999213 for n:: 0
+This is error percentage::0.0787197from ::8
+This is output value:: 0.99805 for n:: 0
+This is error percentage::0.195006from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 0.99983 for n:: 0
+This is error percentage::100.017from ::0
+This is output value:: 0.9999 for n:: 0
+This is error percentage::100.01from ::1
+This is output value:: 0.999868 for n:: 0
+This is error percentage::100.013from ::2
+This is output value:: 0.999886 for n:: 0
+This is error percentage::100.011from ::3
+This is output value:: 0.999917 for n:: 0
+This is error percentage::100.008from ::4
+This is output value:: 0.999879 for n:: 0
+This is error percentage::100.012from ::5
+This is output value:: 0.999946 for n:: 0
+This is error percentage::100.005from ::6
+This is output value:: 0.999909 for n:: 0
+This is error percentage::100.009from ::7
+This is output value:: 0.999933 for n:: 0
+This is error percentage::100.007from ::8
+This is output value:: 0.999867 for n:: 0
+This is error percentage::100.013from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 0.99993 for n:: 0
+This is error percentage::400.007from ::0
+This is output value:: 0.999942 for n:: 0
+This is error percentage::400.006from ::1
+This is output value:: 0.99996 for n:: 0
+This is error percentage::400.004from ::2
+This is output value:: 0.999973 for n:: 0
+This is error percentage::400.003from ::3
+This is output value:: 0.999966 for n:: 0
+This is error percentage::400.003from ::4
+This is output value:: 0.999967 for n:: 0
+This is error percentage::400.003from ::5
+This is output value:: 0.999962 for n:: 0
+This is error percentage::400.004from ::6
+This is output value:: 0.999963 for n:: 0
+This is error percentage::400.004from ::7
+This is output value:: 0.999952 for n:: 0
+This is error percentage::400.005from ::8
+This is output value:: 0.999956 for n:: 0
+This is error percentage::400.004from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999974 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.999983 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999978 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999978 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.99997 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999976 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.999969 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999983 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.999985 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999965 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999983 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.99997 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999983 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999985 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.999965 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999987 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.99996 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999986 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.999976 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999972 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 0.999946 for n:: 0
+This is error percentage::100.005from ::0
+This is output value:: 0.99992 for n:: 0
+This is error percentage::100.008from ::1
+This is output value:: 0.999923 for n:: 0
+This is error percentage::100.008from ::2
+This is output value:: 0.999957 for n:: 0
+This is error percentage::100.004from ::3
+This is output value:: 0.999958 for n:: 0
+This is error percentage::100.004from ::4
+This is output value:: 0.999942 for n:: 0
+This is error percentage::100.006from ::5
+This is output value:: 0.999949 for n:: 0
+This is error percentage::100.005from ::6
+This is output value:: 0.999958 for n:: 0
+This is error percentage::100.004from ::7
+This is output value:: 0.999957 for n:: 0
+This is error percentage::100.004from ::8
+This is output value:: 0.999961 for n:: 0
+This is error percentage::100.004from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999987 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.999975 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999986 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999984 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.999984 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999981 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.999985 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999984 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.999974 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999988 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999987 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.999986 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999984 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999985 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.999988 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999991 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.999982 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999992 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.99999 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999993 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 0.99998 for n:: 0
+This is error percentage::400.002from ::0
+This is output value:: 0.999979 for n:: 0
+This is error percentage::400.002from ::1
+This is output value:: 0.99998 for n:: 0
+This is error percentage::400.002from ::2
+This is output value:: 0.999987 for n:: 0
+This is error percentage::400.001from ::3
+This is output value:: 0.999989 for n:: 0
+This is error percentage::400.001from ::4
+This is output value:: 0.999977 for n:: 0
+This is error percentage::400.002from ::5
+This is output value:: 0.999973 for n:: 0
+This is error percentage::400.003from ::6
+This is output value:: 0.999991 for n:: 0
+This is error percentage::400.001from ::7
+This is output value:: 0.999986 for n:: 0
+This is error percentage::400.001from ::8
+This is output value:: 0.99997 for n:: 0
+This is error percentage::400.003from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 0.999957 for n:: 0
+This is error percentage::100.004from ::0
+This is output value:: 0.999961 for n:: 0
+This is error percentage::100.004from ::1
+This is output value:: 0.999947 for n:: 0
+This is error percentage::100.005from ::2
+This is output value:: 0.999979 for n:: 0
+This is error percentage::100.002from ::3
+This is output value:: 0.999945 for n:: 0
+This is error percentage::100.006from ::4
+This is output value:: 0.99994 for n:: 0
+This is error percentage::100.006from ::5
+This is output value:: 0.999979 for n:: 0
+This is error percentage::100.002from ::6
+This is output value:: 0.999979 for n:: 0
+This is error percentage::100.002from ::7
+This is output value:: 0.999981 for n:: 0
+This is error percentage::100.002from ::8
+This is output value:: 0.999982 for n:: 0
+This is error percentage::100.002from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 0.999985 for n:: 0
+This is error percentage::900.001from ::0
+This is output value:: 0.999993 for n:: 0
+This is error percentage::900.001from ::1
+This is output value:: 0.999977 for n:: 0
+This is error percentage::900.002from ::2
+This is output value:: 0.999993 for n:: 0
+This is error percentage::900.001from ::3
+This is output value:: 0.999994 for n:: 0
+This is error percentage::900.001from ::4
+This is output value:: 0.999994 for n:: 0
+This is error percentage::900.001from ::5
+This is output value:: 0.999996 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 0.999994 for n:: 0
+This is error percentage::900.001from ::7
+This is output value:: 0.999995 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 0.999994 for n:: 0
+This is error percentage::900.001from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 0.999977 for n:: 0
+This is error percentage::900.002from ::0
+This is output value:: 0.999994 for n:: 0
+This is error percentage::900.001from ::1
+This is output value:: 0.999996 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 0.999994 for n:: 0
+This is error percentage::900.001from ::3
+This is output value:: 0.999995 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 0.999976 for n:: 0
+This is error percentage::900.002from ::5
+This is output value:: 0.999974 for n:: 0
+This is error percentage::900.003from ::6
+This is output value:: 0.999994 for n:: 0
+This is error percentage::900.001from ::7
+This is output value:: 0.999991 for n:: 0
+This is error percentage::900.001from ::8
+This is output value:: 0.999993 for n:: 0
+This is error percentage::900.001from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999995 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999996 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999995 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.999994 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999995 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.999996 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999995 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.999996 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999994 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999995 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999996 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999995 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.999996 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999994 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.999996 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999996 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 0.999994 for n:: 0
+This is error percentage::400.001from ::0
+This is output value:: 0.99999 for n:: 0
+This is error percentage::400.001from ::1
+This is output value:: 0.999994 for n:: 0
+This is error percentage::400.001from ::2
+This is output value:: 0.999995 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 0.999994 for n:: 0
+This is error percentage::400.001from ::4
+This is output value:: 0.999991 for n:: 0
+This is error percentage::400.001from ::5
+This is output value:: 0.999993 for n:: 0
+This is error percentage::400.001from ::6
+This is output value:: 0.999991 for n:: 0
+This is error percentage::400.001from ::7
+This is output value:: 0.999993 for n:: 0
+This is error percentage::400.001from ::8
+This is output value:: 0.999995 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 0.999996 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 0.999993 for n:: 0
+This is error percentage::900.001from ::1
+This is output value:: 0.999997 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 0.999996 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 0.999997 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 0.999995 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 0.999996 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 0.999992 for n:: 0
+This is error percentage::900.001from ::7
+This is output value:: 0.999995 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 0.999995 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 0.999997 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 0.999997 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 0.999995 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 0.999996 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 0.999995 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 0.999997 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 0.999995 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 0.999996 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 0.999996 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 0.999996 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999996 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999995 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 0.999988 for n:: 0
+This is error percentage::100.001from ::0
+This is output value:: 0.999987 for n:: 0
+This is error percentage::100.001from ::1
+This is output value:: 0.999988 for n:: 0
+This is error percentage::100.001from ::2
+This is output value:: 0.999992 for n:: 0
+This is error percentage::100.001from ::3
+This is output value:: 0.99999 for n:: 0
+This is error percentage::100.001from ::4
+This is output value:: 0.999989 for n:: 0
+This is error percentage::100.001from ::5
+This is output value:: 0.99999 for n:: 0
+This is error percentage::100.001from ::6
+This is output value:: 0.999983 for n:: 0
+This is error percentage::100.002from ::7
+This is output value:: 0.999991 for n:: 0
+This is error percentage::100.001from ::8
+This is output value:: 0.999991 for n:: 0
+This is error percentage::100.001from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 0.999988 for n:: 0
+This is error percentage::100.001from ::0
+This is output value:: 0.999992 for n:: 0
+This is error percentage::100.001from ::1
+This is output value:: 0.99999 for n:: 0
+This is error percentage::100.001from ::2
+This is output value:: 0.999991 for n:: 0
+This is error percentage::100.001from ::3
+This is output value:: 0.999991 for n:: 0
+This is error percentage::100.001from ::4
+This is output value:: 0.999988 for n:: 0
+This is error percentage::100.001from ::5
+This is output value:: 0.99999 for n:: 0
+This is error percentage::100.001from ::6
+This is output value:: 0.999992 for n:: 0
+This is error percentage::100.001from ::7
+This is output value:: 0.999988 for n:: 0
+This is error percentage::100.001from ::8
+This is output value:: 0.999992 for n:: 0
+This is error percentage::100.001from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 0.999995 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 0.999997 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 0.999996 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 0.999996 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 0.999996 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 0.999994 for n:: 0
+This is error percentage::400.001from ::5
+This is output value:: 0.999996 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 0.999997 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 0.999995 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 0.999991 for n:: 0
+This is error percentage::400.001from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999908 for n:: 0
+This is error percentage::0.00915344from ::0
+This is output value:: 0.99994 for n:: 0
+This is error percentage::0.00595563from ::1
+This is output value:: 0.999831 for n:: 0
+This is error percentage::0.0168952from ::2
+This is output value:: 0.999908 for n:: 0
+This is error percentage::0.00918812from ::3
+This is output value:: 0.999824 for n:: 0
+This is error percentage::0.0175769from ::4
+This is output value:: 0.999883 for n:: 0
+This is error percentage::0.0116586from ::5
+This is output value:: 0.99979 for n:: 0
+This is error percentage::0.0209767from ::6
+This is output value:: 0.999864 for n:: 0
+This is error percentage::0.0136151from ::7
+This is output value:: 0.99991 for n:: 0
+This is error percentage::0.00901584from ::8
+This is output value:: 0.99992 for n:: 0
+This is error percentage::0.00800338from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999908 for n:: 0
+This is error percentage::0.00915344from ::0
+This is output value:: 0.99992 for n:: 0
+This is error percentage::0.00800338from ::1
+This is output value:: 0.999924 for n:: 0
+This is error percentage::0.00763889from ::2
+This is output value:: 0.99988 for n:: 0
+This is error percentage::0.0120373from ::3
+This is output value:: 0.999924 for n:: 0
+This is error percentage::0.00760916from ::4
+This is output value:: 0.99992 for n:: 0
+This is error percentage::0.00796439from ::5
+This is output value:: 0.999907 for n:: 0
+This is error percentage::0.00930395from ::6
+This is output value:: 0.99992 for n:: 0
+This is error percentage::0.00800239from ::7
+This is output value:: 0.999916 for n:: 0
+This is error percentage::0.00838976from ::8
+This is output value:: 0.999926 for n:: 0
+This is error percentage::0.00741034from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999997 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999998 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 0.999998 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 0.999998 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999944 for n:: 0
+This is error percentage::0.0056026from ::0
+This is output value:: 0.999947 for n:: 0
+This is error percentage::0.00525363from ::1
+This is output value:: 0.999946 for n:: 0
+This is error percentage::0.00541236from ::2
+This is output value:: 0.999947 for n:: 0
+This is error percentage::0.00529611from ::3
+This is output value:: 0.999873 for n:: 0
+This is error percentage::0.0126883from ::4
+This is output value:: 0.999951 for n:: 0
+This is error percentage::0.00485359from ::5
+This is output value:: 0.999934 for n:: 0
+This is error percentage::0.00657873from ::6
+This is output value:: 0.999945 for n:: 0
+This is error percentage::0.00552904from ::7
+This is output value:: 0.999931 for n:: 0
+This is error percentage::0.00692157from ::8
+This is output value:: 0.999907 for n:: 0
+This is error percentage::0.00931176from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 0.999998 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 0.999998 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 0.999997 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 0.999997 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999947 for n:: 0
+This is error percentage::0.00529611from ::0
+This is output value:: 0.999951 for n:: 0
+This is error percentage::0.00485359from ::1
+This is output value:: 0.999934 for n:: 0
+This is error percentage::0.00657873from ::2
+This is output value:: 0.999963 for n:: 0
+This is error percentage::0.00370756from ::3
+This is output value:: 0.999829 for n:: 0
+This is error percentage::0.0171484from ::4
+This is output value:: 0.99992 for n:: 0
+This is error percentage::0.00804779from ::5
+This is output value:: 0.999934 for n:: 0
+This is error percentage::0.0065852from ::6
+This is output value:: 0.999961 for n:: 0
+This is error percentage::0.0039059from ::7
+This is output value:: 0.999936 for n:: 0
+This is error percentage::0.00643966from ::8
+This is output value:: 0.999909 for n:: 0
+This is error percentage::0.00906406from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 0.999998 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 0.999999 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 0.999999 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 0.999999 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 0.999999 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 0.999999 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.99999 for n:: 0
+This is error percentage::0.000954133from ::0
+This is output value:: 0.999993 for n:: 0
+This is error percentage::0.000664936from ::1
+This is output value:: 0.999993 for n:: 0
+This is error percentage::0.000686396from ::2
+This is output value:: 0.999995 for n:: 0
+This is error percentage::0.000519372from ::3
+This is output value:: 0.999994 for n:: 0
+This is error percentage::0.000643185from ::4
+This is output value:: 0.99999 for n:: 0
+This is error percentage::0.000970856from ::5
+This is output value:: 0.999995 for n:: 0
+This is error percentage::0.000540512from ::6
+This is output value:: 0.999994 for n:: 0
+This is error percentage::0.000619155from ::7
+This is output value:: 0.99998 for n:: 0
+This is error percentage::0.00199062from ::8
+This is output value:: 0.999994 for n:: 0
+This is error percentage::0.00061743from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999994 for n:: 0
+This is error percentage::0.000639289from ::0
+This is output value:: 0.999993 for n:: 0
+This is error percentage::0.000708907from ::1
+This is output value:: 0.999994 for n:: 0
+This is error percentage::0.000581341from ::2
+This is output value:: 0.999992 for n:: 0
+This is error percentage::0.000752457from ::3
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000172571from ::4
+This is output value:: 0.999995 for n:: 0
+This is error percentage::0.000512319from ::5
+This is output value:: 0.999992 for n:: 0
+This is error percentage::0.000778761from ::6
+This is output value:: 0.99999 for n:: 0
+This is error percentage::0.00101731from ::7
+This is output value:: 0.999987 for n:: 0
+This is error percentage::0.0012566from ::8
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000178812from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999993 for n:: 0
+This is error percentage::0.000666486from ::0
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000191505from ::1
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000175278from ::2
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000168038from ::3
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000141179from ::4
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000247663from ::5
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000218342from ::6
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000151953from ::7
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000231596from ::8
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000165106from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999993 for n:: 0
+This is error percentage::0.000666486from ::0
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000191505from ::1
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000175278from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000141179from ::3
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000151953from ::4
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000150506from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000148109from ::6
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000240597from ::7
+This is output value:: 0.999995 for n:: 0
+This is error percentage::0.000539247from ::8
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000150598from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000141179from ::0
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000151953from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000148109from ::2
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000240597from ::3
+This is output value:: 0.999995 for n:: 0
+This is error percentage::0.000539247from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::7.81224e-05from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::7.87239e-05from ::6
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000140806from ::7
+This is output value:: 0.999999 for n:: 0
+This is error percentage::9.05517e-05from ::8
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000244612from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::7.87239e-05from ::0
+This is output value:: 0.999999 for n:: 0
+This is error percentage::9.05517e-05from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000125152from ::2
+This is output value:: 0.999997 for n:: 0
+This is error percentage::0.000348774from ::3
+This is output value:: 0.999999 for n:: 0
+This is error percentage::8.44853e-05from ::4
+This is output value:: 0.999996 for n:: 0
+This is error percentage::0.000356954from ::5
+This is output value:: 0.999997 for n:: 0
+This is error percentage::0.000278436from ::6
+This is output value:: 0.999997 for n:: 0
+This is error percentage::0.000305885from ::7
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000140407from ::8
+This is output value:: 0.999996 for n:: 0
+This is error percentage::0.000424032from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::8.44853e-05from ::0
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000140407from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000112995from ::2
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000155687from ::3
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000155381from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000128228from ::5
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000207339from ::6
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000131919from ::7
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000242811from ::8
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000197555from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000128228from ::0
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000119778from ::1
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000137043from ::2
+This is output value:: 0.999999 for n:: 0
+This is error percentage::8.44023e-05from ::3
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000131193from ::4
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000118607from ::5
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000137386from ::6
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000122266from ::7
+This is output value:: 0.999998 for n:: 0
+This is error percentage::0.000182653from ::8
+This is output value:: 0.999999 for n:: 0
+This is error percentage::0.000117506from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::7.42739e-06from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::2.83617e-05from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::5.49629e-06from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::5.03336e-06from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::4.54444e-06from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::2.41296e-05from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1.95332e-05from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1.13556e-05from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::5.31384e-06from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::2.05846e-05from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::5.39377e-06from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::5.82486e-06from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::5.17397e-06from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::7.98233e-06from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1.15259e-05from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::6.8161e-06from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::5.38215e-06from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::9.89887e-06from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::9.90801e-06from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1.02331e-05from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::5.39377e-06from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::5.17397e-06from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::6.8161e-06from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::5.38215e-06from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::9.90801e-06from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::5.15066e-06from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::7.11949e-06from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::6.36397e-06from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::4.165e-06from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1.1413e-05from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::5.81247e-06from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::5.50592e-06from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::4.91918e-06from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::3.54352e-06from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::6.28953e-06from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::3.77671e-06from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::4.1705e-06from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::3.19075e-06from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::4.06323e-06from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::3.36139e-06from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::3.54352e-06from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::3.91071e-06from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::3.93539e-06from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::3.89757e-06from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::2.24339e-06from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::2.73681e-06from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::4.34616e-06from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::3.56163e-06from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::4.0862e-06from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::3.21409e-06from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::1.08764e-06from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1.38514e-06from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1.57226e-06from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1.99225e-06from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1.74158e-06from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1.77336e-06from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::2.69735e-06from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::2.05402e-06from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1.36185e-06from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1.38521e-06from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::2.86172e-07from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::3.28487e-07from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::3.09433e-07from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::5.35752e-07from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::2.11728e-07from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::2.05783e-07from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::9.42526e-07from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::3.9166e-07from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::5.00798e-07from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::2.54931e-07from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::2.11728e-07from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::2.97508e-07from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1.33636e-07from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1.55667e-07from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::3.08084e-07from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::2.73632e-07from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::2.63755e-07from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::2.31576e-07from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::2.5811e-07from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::2.58219e-07from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::1.02364e-07from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1.41191e-07from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1.20245e-07from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1.14701e-07from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1.61826e-07from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1.68154e-07from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1.21297e-07from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1.39833e-07from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1.12373e-07from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::9.7726e-08from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::1.02364e-07from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1.20245e-07from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1.14701e-07from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1.12373e-07from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::9.7726e-08from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::9.71365e-08from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::9.55423e-08from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1.31428e-07from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1.06845e-07from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::7.52347e-08from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::9.55423e-08from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::7.52347e-08from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1.14847e-07from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1.30488e-07from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::9.88804e-08from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1.04637e-07from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1.17026e-07from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::7.79685e-08from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1.20742e-07from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1.13358e-07from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::7.86568e-08from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::4.42587e-08from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::9.02133e-08from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1.14194e-07from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1.0063e-07from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::4.01428e-08from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::6.16691e-08from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1.56642e-07from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::8.38439e-08from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::5.25192e-08from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::4.42587e-08from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::4.01428e-08from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::6.16691e-08from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::5.25192e-08from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::4.80461e-08from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::3.35583e-08from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::5.36869e-08from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::6.64574e-08from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::5.05419e-08from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::5.70575e-08from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::1.80404e-08from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::2.77239e-08from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::3.217e-08from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::3.65416e-08from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::2.0116e-08from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::2.2893e-08from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::2.63676e-08from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::4.02527e-08from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::2.25254e-08from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1.75026e-08from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::1.61661e-08from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1.56447e-08from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::2.31136e-08from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1.14912e-08from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1.63935e-08from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1.37072e-08from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1.21591e-08from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1.10989e-08from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::3.63e-08from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::6.62337e-09from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::1.14912e-08from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1.37072e-08from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1.10989e-08from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::3.63e-08from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::6.62337e-09from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1.03081e-08from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1.45492e-08from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1.67691e-08from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1.2473e-08from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1.40597e-08from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::1.03081e-08from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1.46733e-08from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::8.73811e-09from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::5.63433e-09from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::9.46836e-09from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1.12153e-08from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::9.41669e-09from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1.10707e-08from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::7.09779e-09from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1.75543e-08from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::1.03081e-08from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::8.73811e-09from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::5.63433e-09from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::9.41669e-09from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::7.09779e-09from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::4.97878e-09from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::8.94276e-09from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::6.3764e-09from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1.18036e-08from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::7.38652e-09from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided2
+This is target value5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::400from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::3.92627e-09from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::2.20234e-09from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::3.6486e-09from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::3.0569e-09from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::3.11534e-09from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::4.63959e-09from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::2.1484e-09from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::4.31294e-09from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::2.19502e-09from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::2.00455e-09from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::2.20234e-09from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::3.0569e-09from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::3.11534e-09from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::2.19502e-09from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::2.00455e-09from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1.76803e-09from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1.71464e-09from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::3.166e-09from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1.65057e-09from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::2.47443e-09from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::3.11534e-09from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::2.19502e-09from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::2.00455e-09from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1.76803e-09from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1.65057e-09from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1.5133e-09from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::2.7915e-09from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1.52939e-09from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::3.76735e-09from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::2.15793e-09from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::1.76803e-09from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1.65057e-09from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1.5133e-09from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1.52939e-09from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::2.15793e-09from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::9.17488e-10from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1.65333e-09from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::2.9782e-09from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1.14212e-09from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::3.09005e-09from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided0
+This is target value1
+This is output value:: 1 for n:: 0
+This is error percentage::1.53501e-09from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1.08824e-09from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1.22998e-09from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1.00611e-09from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::2.11809e-09from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1.0993e-09from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::7.12741e-10from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::6.54832e-10from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::4.10494e-10from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1.85497e-09from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+This is input provided4
+This is target value17
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::1600from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided3
+This is target value10
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::900from ::9
+This is size::5
+This is input provided1
+This is target value2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::0
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::1
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::2
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::3
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::4
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::5
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::6
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::7
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::8
+This is output value:: 1 for n:: 0
+This is error percentage::100from ::9
+This is size::5
+Program ended with exit code: 0
